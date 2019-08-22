@@ -1,0 +1,108 @@
+#prfx_meta{
+
+    overflow: hidden;
+
+    padding-bottom: 1em;
+
+}
+
+ 
+
+#prfx_meta p{
+
+    clear: both;
+
+}
+
+ 
+
+.prfx-row-title{
+
+    display: block;
+
+    float: left;
+
+    width: 200px;
+
+}
+
+ 
+
+.prfx-row-content{
+
+    float: left;
+
+    padding-bottom: 1em;
+
+}
+
+ 
+
+.prfx-row-content label{
+
+    display: block;
+
+    line-height: 1.75em;
+
+}
+
+.frm-area-file .frm_quick_file .fa {
+
+    font-size: 2em;
+
+    font-weight: 500;
+
+}
+
+.frm-area-file .frm_quick_file .btn-file {
+
+    padding: 3px 5px;
+
+}
+
+.comment-box .comment-list .img-thumbnail {
+
+    display: inline-block;
+
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    
+    padding: 1px 1px;
+
+    line-height: 1.42857143;
+
+    background-color: #fff;
+
+    border: 1px solid #ddd;
+
+    border-radius: 4px;
+
+    -webkit-transition: all .2s ease-in-out;
+
+    -o-transition: all .2s ease-in-out;
+
+    transition: all .2s ease-in-out;
+
+}
+
+.comment-box .comment-list li {
+
+    padding: 5px 5px;
+
+}
+
+.list-inline .thumb-li {
+    padding: 5px 5px;
+}
+.list-inline .thumb-li .thumb-attach {
+    max-width:200px;
+    height:auto;  
+}
+.list-inline .thumb-li .thumb-attach .thumb-img {
+    max-width:200px;
+}
+.list-inline .thumb-li img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,52 @@
+.footer{
+	padding: 3% 0;
+	  background-image: -webkit-linear-gradient(45deg, #fb872b, #d9e021);
+    background-image: linear-gradient(45deg, #fb872b, #d9e021);
+    color: #ffffff;
+}
+.title-footer{
+	font-size: 35px;
+    margin: 0 0;
+}
+.des-footer{
+	font-size: 17px;
+}
+.footer-cosial span{
+	font-size: 30px;
+    margin-right: 5px;
+}
+.fa-facebook-square{
+	color: #3B5998;
+}
+.fa-twitter-square{
+	color: #5DE5FD;
+}
+.fa-instagram{
+	color: #E53961;
+}
+.fa-pinterest-square{
+	color: #e60023;
+}
+.footer-dd b{
+	font-size: 14px;
+}
+.footer-dd p i{
+	padding-right: 10px
+}
+.bdo-footer{
+	padding-left: 30px;
+}
+.bdo-footer a{
+	color: #ffffff;
+}
+.footer .item {
+	padding: 3px 5px; 
+}
+.footer .item h5 {
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0px auto;
+}
+.footer a {
+	color: #fff;
+}

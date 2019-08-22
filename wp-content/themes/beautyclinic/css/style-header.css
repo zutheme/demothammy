@@ -1,0 +1,654 @@
+.topnav {
+
+  position: relative;
+
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, .45);
+
+  box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.75);
+
+  
+
+}
+
+.topnav-right{
+
+  display: flex;
+
+  flex-direction: row;
+
+}
+
+.social {
+
+  display: flex;
+
+  width: 200px;
+
+  background-color: #cc9900;
+
+  flex: 2;
+
+}
+
+
+
+.social a {
+
+  flex: 1;
+
+  float: left;
+
+  color: #f2f2f2;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+
+  font-size: 17px;
+
+  min-width: 20px;
+
+  transition: box-shadow 1s ease;
+
+}
+
+.social a:hover {
+
+  box-shadow: inset 0 0 0 50px rgba(255, 255, 255, .2);
+
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+
+}
+
+.main {
+
+  width: 100%;
+
+  height: auto;
+
+  flex-direction: row;
+
+  display: flex;
+
+}
+
+
+
+.side {
+
+  flex: 2;
+
+  background: #70665c;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+
+
+.txt {
+
+  flex: 1;
+
+}
+
+
+
+.header {
+
+  position: absolute;
+
+  z-index: 91;
+
+  color: white;
+
+  margin-left: 40px;
+
+  margin-top: 100px;
+
+  padding-left: 15px;
+
+  border-left: 2px solid white;
+
+  font-family: 'Mukta', sans-serif;
+
+  letter-spacing: 1px;
+
+}
+
+
+
+.header h1 {
+
+  font-size: 4vw;
+
+  margin-top: -5px;
+
+}
+
+
+
+.header p {
+
+  margin-top: -2vw;
+
+  font-size: 97%;
+
+}
+
+
+
+.boxes {
+
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.boxes a {
+
+  color: #795548;
+
+}
+
+.first-line {
+
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: row;
+
+  width: 50%;
+
+}
+
+
+
+#f1 {
+
+  /*background-image: url(../img/beautiful-2.jpg);*/
+
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+  background-size: cover;
+
+  flex: 1;
+
+  cursor: pointer;
+
+  transition: box-shadow 1s ease;
+
+  box-shadow: inset 0 0 0 10px rgba(255, 255, 255, .4);
+
+}
+
+
+
+#f1:hover {
+
+  box-shadow: inset 0 0 0 20px rgba(255, 255, 255, .4);
+
+}
+
+
+
+.second-line {
+
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: row;
+
+}
+
+
+
+#f2 {
+
+  /*background-image: url(../img/girl-1.jpg);*/
+
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+  background-size: cover;
+
+  flex: 1;
+
+  cursor: pointer;
+
+  transition: box-shadow 1s ease;
+
+}
+
+
+
+#f2:hover {
+
+  box-shadow: inset 0 0 0 10px rgba(255, 255, 255, .4);
+
+}
+
+
+
+#f3 {
+
+  /*background-image: url(../img/girl-3.jpg);*/
+
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+  background-size: cover;
+
+  flex: 1;
+
+  cursor: pointer;
+
+  transition: box-shadow 1s ease;
+
+  box-shadow: inset 0 0 0 10px rgba(255, 255, 255, .4);
+
+}
+
+
+
+#f3:hover {
+
+  box-shadow: inset 0 0 0 20px rgba(255, 255, 255, .4);
+
+}
+
+
+
+.inside {
+
+  width: 100%;
+
+  height: Calc(100% - 40px);
+
+  margin: 20px 0;
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  color: white;
+
+}
+
+
+
+.inside span {
+
+  height: 1px;
+
+  width: 30%;
+
+  background: white;
+
+  display: block;
+
+  margin: 0 auto;
+
+}
+
+
+
+.inside p {
+
+  font-size: 100%;
+
+  position: relative;
+
+  top: 30%;
+
+  transform: translateY(-50%);
+
+  font-weight: bold;
+
+}
+
+
+
+.slidep {
+
+  background: silver;
+
+  flex: 5;
+
+  overflow: hidden;
+
+}
+
+
+
+/*SLIDESHOW*/
+
+
+
+/* ---------------------------------- */
+
+
+
+/* Essential Styles */
+
+
+
+.slider {
+
+  display: flex;
+
+}
+
+
+
+.slide {
+
+  width: 100%;
+
+  margin-right: -100%;
+
+  position: relative;
+
+  z-index: 1;
+
+}
+
+
+
+.slide:first-child {
+
+  z-index: 2;
+
+}
+
+
+
+.slide:focus,
+
+.slide:focus-within {
+
+  z-index: 10;
+
+}
+
+
+
+/* ---------------------------------- */
+
+
+
+/* Animation-based styles */
+
+
+
+.slide {
+
+  transition: all .6s cubic-bezier(.5, 0, .5, 1), z-index .7s linear;
+
+  transform: translateX(-50%) scale(0.8);
+
+  opacity: 0;
+
+}
+
+
+
+.slider:not(:focus-within) .slide:first-child,
+
+.slide:focus,
+
+.slide:focus-within {
+
+  transform: translateX(0%) scale(1);
+
+  opacity: 1;
+
+  z-index: 10;
+
+}
+
+
+
+/* ---------------------------------- */
+
+
+
+/* Stylistic Choices */
+
+
+
+.slide {
+
+  height: auto;
+
+  display: flex;
+
+  background: red;
+
+  background: hsl( calc(360deg * ( var(--i) / var(--total))), 60%, 60%);
+
+}
+
+
+
+.slider {
+
+  overflow: hidden;
+
+}
+
+
+
+.slide-nav {
+
+  position: absolute;
+
+  bottom: 30px;
+
+  right: 50px;
+
+  text-align: center;
+
+  z-index: 12;
+
+}
+
+
+
+.button-header{
+
+  position: absolute;
+
+  bottom: 30px;
+
+  left: 50px;
+
+  text-align: center;
+
+  z-index: 12;
+
+  width: 100px;
+
+  background-color: rgba(255, 152, 0, 0.58);
+
+  color: white;
+
+  font-size: 100%;
+
+  height: 40px;
+
+  cursor: pointer;
+
+  line-height: 40px;
+
+  letter-spacing: 1px;
+
+  transition: box-shadow 1s ease;
+  border-radius: 5px;
+
+}
+
+
+
+.button-header:hover {
+
+  box-shadow: inset 0 0 0 50px rgba(255, 255, 255, .2);
+
+}
+
+
+
+.slide-nav a {
+
+  display: inline-block;
+
+  width: 1em;
+
+  height: 1em;
+
+  color: white;
+
+  padding: 0 5px;
+
+  border-radius: 50%;
+
+  text-decoration: none;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-family: monospace;
+
+  font-size: 1rem;
+
+  border: solid 2px transparent;
+
+}
+
+
+
+.slide-nav a:hover {
+
+  color: silver;
+
+}
+
+
+
+.slide img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+
+
+/*responsive*/
+
+
+
+@media only screen and (max-width:950px) {
+
+  .main {
+
+    flex-direction: column;
+
+    height:auto;
+
+  }
+
+  .side {
+
+    flex: 1;
+
+  }
+
+  .slidep {
+
+    flex: 1;
+
+  }
+
+  .slide-nav {
+
+  position: absolute;
+
+  bottom: Calc(30px - 100vh);
+
+  right: 50px;
+
+  text-align: center;
+
+  z-index: 12;
+
+}
+
+}
+
+@media(max-width: 950px) {
+
+    .slide{
+
+        
+
+        display: inherit;
+
+    }
+
+    .header{
+
+        position: inherit;
+
+        background-color: #70665c;
+
+        margin: 0 0;
+
+        padding-top: 55px;
+
+        padding-bottom: 10px;
+
+    }
+
+    .slidep{
+
+        position: relative;
+
+    }
+
+    .slide-nav{
+
+        bottom: 15px;
+
+        right: 20px;
+
+    }
+
+    .txt{
+
+      display: none;
+
+    }
+
+}

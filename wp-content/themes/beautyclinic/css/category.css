@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+
+.category-c{
+
+	background-color: #f7f7f7;
+
+	padding-bottom: 70px;
+
+}
+
+.magin-category{
+
+	margin-top: 2%;
+  position: relative;
+
+}
+
+figure.snip1197 {
+
+  font-family: 'Raleway', Arial, sans-serif;
+
+  position: relative;
+
+  margin: 10px;
+
+  min-width: 200px;
+
+  max-width: 480px;
+
+  width: 100%;
+
+  color: #333;
+
+  text-align: left;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+
+  border-radius: 8px;
+
+}
+
+figure.snip1197 * {
+
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+
+}
+
+.snip1197 figcaption a{
+
+  text-decoration: none;
+
+}
+
+.snip1197 figcaption a h2{
+
+  font-size: 15px;
+
+    margin: 0 0;
+
+    padding: 0 15px;
+
+    padding-top: 15px;
+
+    color: #4c3e1f;
+
+}
+
+.snip1197 figcaption a h2:hover{
+
+  color: gold;
+
+}
+
+figure.snip1197 img {
+
+  float: right;
+
+  width: auto;
+  height: 200px;
+  max-width: 98%;
+  vertical-align: middle;
+
+  border-radius: 0 8px 8px 0;
+
+}
+
+figure.snip1197 figcaption {
+
+  top: 0;
+
+  bottom: 0;
+
+  left: 0;
+
+  width: 60%;
+
+  position: absolute;
+
+  background-color: #ffffff;
+
+  border-radius: 8px;
+
+}
+
+figure.snip1197 blockquote {
+
+  position: relative;
+
+  padding: 25px 50px 25px 50px;
+
+  font-size: 0.85em;
+
+  font-weight: 500;
+
+  text-align: left;
+
+  margin: 0;
+
+  line-height: 1.6em;
+
+  font-style: italic;
+
+  height: 110px;
+
+ overflow: hidden;
+
+}
+
+figure.snip1197 blockquote:before,
+
+figure.snip1197 blockquote:after {
+
+  font-family: 'FontAwesome';
+
+  content: "\201C";
+
+  position: absolute;
+
+  font-size: 50px;
+
+  opacity: 0.3;
+
+  font-style: normal;
+
+}
+
+figure.snip1197 blockquote:before {
+
+  top: 25px;
+
+  left: 20px;
+
+}
+
+figure.snip1197 blockquote:after {
+
+  content: "\201D";
+
+  right: 20px;
+
+  bottom: 0px;
+
+}
+
+figure.snip1197 .arrow {
+
+  top: 30px;
+
+  left: 100%;
+
+  width: 0;
+
+  height: 0;
+
+  border-left: 0 solid transparent;
+
+  border-right: 25px solid transparent;
+
+  border-top: 25px solid #ffffff;
+
+  margin: 0;
+
+  position: absolute;
+
+}
+.page-number{
+  position: absolute;
+  bottom: -40px;
+}
+
+.page-numbers{
+  background-color: #ffffff;
+  padding: 5px 13px;
+  margin-right: 5px;
+  border-radius: 5px;
+  color: #ff9800;
+}
+.current{
+  background-color: gold;
+  padding: 5px 13px;
+  margin-right: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.page-numbers:hover{
+  background-color: gold;
+  color: #ffffff;
+}

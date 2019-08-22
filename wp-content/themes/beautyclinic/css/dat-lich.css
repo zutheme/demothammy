@@ -1,0 +1,81 @@
+.dat-lich{
+  background: url(../img/dat-lich.jpg) no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tion-dl{
+  overflow: hidden;  
+  width: 100%;
+  padding: 100px 0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.contai-dl{
+  width:85%;
+  height:auto;
+  position:relative;
+}
+.slider-dl {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px 3px rgba(66, 44, 21, 0.15);
+}
+
+.slider-dl:before{
+  content:"";
+  position:absolute;
+  bottom:-80px;
+  left:-60px;
+  width:342px;
+  height:346px;
+  background:url(../img/flower.png);
+  
+}
+.form-dl{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7px;
+  position:relative;
+}
+.title-dl{
+  text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff9800;
+}
+.form-dl input{
+  width: 80%;
+  color: #ff9800;
+  border: none;
+  border-bottom: 1px solid rgba(255, 152, 0, 0.2);
+  padding: 9px;
+  margin: 7px;
+  font-size: 13px;
+}
+.form-dl textarea{
+  width: 80%;
+  padding: 9px;
+  margin: 7px;
+  font-size: 13px;
+  height: 80px;
+  border: 1px solid rgba(255, 152, 0, 0.2);
+  border-radius: 5px;
+}
+.form-dl a{
+  margin: 20px 0;
+  background: #e0b87e;
+  padding: 15px 40px;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.form-dl a:hover{
+  background-color: #ff9800;
+  transition:.2s;
+}

@@ -1,0 +1,1 @@
+<title><?php bloginfo('name'); ?> <?php if ( is_archive()) { echo ""; } else if( is_single() ) { ?> &raquo; <?php } ?> <?php wp_title(); ?> </title>

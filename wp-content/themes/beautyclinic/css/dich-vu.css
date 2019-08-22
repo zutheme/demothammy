@@ -1,0 +1,103 @@
+.dich-vu{
+
+	margin-top: 40px;
+
+    margin-bottom: 6%;
+
+}
+
+.title-dichvu{
+
+	text-align: center;
+
+}
+
+.title-dichvu h2{
+
+	font-size: 30px;
+
+    line-height: 30px;
+
+    padding: 0 0 30px;
+
+    margin: 0 0 30px;
+
+    display: inline-block;
+
+    position: relative;
+
+    background-image: url(../img/shape-2.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center 46px;
+
+    font-weight: 700;
+    background: #936e2e;
+    background: -moz-linear-gradient(left, #936e2e 0%, #e5cc61 80%, #936e2e 100%);
+    background: -webkit-linear-gradient(left, #936e2e 0%, #e5cc61 80%, #936e2e 100%);
+    background: linear-gradient(to right, #936e2e 0%, #e5cc61 80%, #936e2e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-primary', endColorstr='$color-primary',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.title-dichvu h2:before {
+
+    position: absolute;
+
+    right: 0;
+
+    bottom: 5px;
+
+    height: 1px;
+
+    width: 40%;
+
+    background: #ccc;
+
+    content: "";
+
+}
+
+.title-dichvu h2:after {
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 5px;
+
+    height: 1px;
+
+    width: 40%;
+
+    background: #ccc;
+
+    content: "";
+
+}
+
+.prifile-dec p{
+
+	line-height: 24px;
+
+    font-size: 16px;
+
+    color: #666;
+
+}
+
+.prifile-dec h3{
+
+	font-size: 18px;
+
+    text-transform: capitalize;
+
+    line-height: 18px;
+
+    font-weight: 700;
+
+}
+

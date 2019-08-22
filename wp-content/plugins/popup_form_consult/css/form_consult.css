@@ -1,0 +1,1072 @@
+/*consultant form*/
+.modal-consultant-form .modal-consult {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1010; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-consultant-form .modal-content-consult {
+	text-align: center;
+    /*background-image: url(../images/nen-frm2.jpg);*/
+    background: #fff;
+    margin: 15% auto; 
+    padding: 0px 0px;
+    border: 1px solid #888;
+    max-width: 600px;
+   /*-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;  */
+}
+.modal-consultant-form .modal-content-consult h2 {
+	font-size: 18px;
+	font-weight: 600px;
+	color: #CC9900;
+	text-transform: uppercase; 
+}
+.modal-consultant-form .modal-content-consult h3 {
+	font-size: 16px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-consultant-form .modal-content-consult p {
+	font-size: 14px;
+	font-weight: 500px;
+	color: #451511;
+}
+.modal-consultant-form .frm-register .register {
+	position: relative;
+	padding-top: 0%;
+	padding: 0px;
+	bo
+}
+.modal-consultant-form .frm-register {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.modal-consultant-form .frm-register .column {
+	float: left;
+    width: 50%;
+}
+.modal-consultant-form .frm-register .column .form-reg {
+	position: relative;
+	height: 100%;
+	background: transparent;
+	padding: 25px;
+}
+/* Clear floats after the columns */
+.modal-consultant-form .frm-register .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.modal-consultant-form .frm-register .register .bacsi {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.modal-consultant-form .frm-register .register .doctor {
+	padding-top: 10%;
+	width: 100%;
+	height: auto;
+}
+.modal-consultant-form .frm-register .register h2 {
+	text-transform: uppercase;
+}
+.modal-consultant-form .frm-register .register .logo {
+	max-width: 200px;
+	height: auto;
+}
+.modal-consultant-form .frm-register .reg {
+	position: relative;
+	background: #fff;
+}
+.modal-consultant-form .frm-register select {
+	webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #EAD868;
+    width: 100%;
+    position: relative;
+    width: 105%;
+    padding: 5px 5px;
+}
+
+.modal-consultant-form .input-group-consult select.form-control-consult {
+
+}
+.modal-consultant-form .frm-register .input-group-consult {
+	width: 95%;
+	padding:7px 5px;
+	text-align: left;
+}
+.modal-consultant-form .input-group-consult.capture {
+	text-align: center;
+}
+.modal-consultant-form .input-group-consult.area-btn {
+	text-align: center;
+	position: relative;
+	padding-top: 15px;
+}
+.modal-consultant-form .input-group-consult .btn-reg-survey {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	background: #DBC25D;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;
+   text-transform: uppercase;
+   padding: 10px 25px; 
+}
+.modal-consultant-form .frm-register .input-group-consult input.form-control-consult{
+	width: 100%;
+	padding:5px 5px;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;
+   border: 1px solid #EAD868;
+}
+/* The Close Button */
+.modal-consultant-form .frm-register .close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 1000;
+    top: 0px;
+    right: 5px;
+    position: absolute;
+    background: transparent;
+}
+@media only screen and (min-device-width: 991px) and (max-device-width:  1300px){
+/*@media (min-width: 991px) and (max-width: 1300px){*/
+	.modal-consultant-form .frm-register .close {
+	    color: #000;
+	    float: right;
+	    font-size: 28px;
+	    font-weight: bold;
+	    z-index: 1000;
+	    top: 0px;
+	    right: 5px;
+	    position: absolute;
+	    background: transparent;
+	}
+}
+.modal-consultant-form .frm-register .close:hover,
+.modal-consultant-form .frm-register .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-consultant-form .modal-content-consult .loading {
+	max-width: 20px;
+	max-height: 20px;
+}
+canvas {
+	width: 100% !important;
+	height: auto !important;
+}
+@media (max-width: 768px) {
+	.modal-consultant-form .frm-register {
+	    position: relative;
+	    width: 100%;
+	    height: auto;
+	    overflow: hidden;
+	}
+	.modal-consultant-form .frm-register .column {
+		float: left;
+	    width: 100%;
+	}
+	.modal-consultant-form .frm-register .column .register {
+		display: none;
+	}
+	.modal-consultant-form .modal-content-consult {
+		background: #fff;
+	    background-image: none;
+	    margin: 20% auto; /* 15% from the top and centered */
+	    padding: 5px;
+	    border: 1px solid #888;
+	    width: 85%; /* Could be more or less, depending on screen size */
+	}
+	.modal-consultant-form .frm-register .close {
+	    color: #000;
+	    float: right;
+	    font-size: 28px;
+	    font-weight: bold;
+	    z-index: 1000;
+	    top: 0px;
+	    right: 5px;
+	    position: absolute;
+	    background: transparent;
+	}
+	.modal-consultant-form .frm-register {
+		position: relative;
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+}
+/*promo*/
+/*promotion form*/
+.modal-promo-form .modal-promo {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1010; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-promo-form .modal-content-promo {
+	text-align: center;
+    background-image:url(../images/bg-spa.jpg);
+    background-repeat: no-repeat;
+  	background-size: 100% 100%;
+    margin: 15% auto; 
+    padding: 0px 0px;
+    border: 1px solid #888;
+    max-width: 600px;
+   /*-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;  */
+}
+.modal-promo-form .modal-content-promo h2 {
+	font-size: 18px;
+	font-weight: 600px;
+	color: #fff;
+	text-transform: uppercase; 
+}
+.modal-promo-form .modal-content-promo h3 {
+	font-size: 16px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-promo-form .modal-content-promo p {
+	font-size: 14px;
+	font-weight: 500px;
+	color: #451511;
+}
+.modal-promo-form .frm-promo .register {
+	position: relative;
+	padding-top: 0%;
+	padding: 0px;
+}
+.modal-promo-form .frm-promo {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.modal-promo-form .frm-promo .column {
+	float: left;
+    width: 50%;
+}
+.modal-promo-form .frm-promo .column .pro-logo {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.modal-promo-form .frm-promo .column .pro-logo .lg {
+	max-width: 100%;
+	height: auto;
+}
+.modal-promo-form .frm-promo .column .form-reg {
+	position: relative;
+	height: 100%;
+	background: transparent;
+	padding: 25px;
+	margin-top:0px; 
+}
+/* Clear floats after the columns */
+.modal-promo-form .frm-promo .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.modal-promo-form .frm-promo .column .register {
+	width: 300px;
+	float: left;
+}
+.modal-promo-form .frm-promo .register .bacsi {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.modal-promo-form .frm-promo .register .doctor {
+	padding-top: 10%;
+	width: 100%;
+	height: auto;
+}
+.modal-promo-form .frm-promo .register h2 {
+	text-transform: uppercase;
+}
+.modal-promo-form .frm-promo .register .logo {
+	max-width: 200px;
+	height: auto;
+}
+.modal-promo-form .frm-promo .reg {
+	position: relative;
+	background: transparent;
+}
+.modal-promo-form .frm-promo .reg .receive {
+	text-align: center;
+	padding: 20px 10px;
+}
+.modal-promo-form .frm-promo .reg .receive h2 {
+	color: #fff;
+}
+.modal-promo-form .frm-promo select {
+	background: transparent;
+   border-right: 1px solid transparent;
+   border-left: 1px solid transparent;
+   border-top: 1px solid transparent;
+   border-bottom: 1px solid #EAD868;
+   font-size: 14px;
+    position: relative;
+    width: 105%;
+    padding: 5px 5px;
+    color: #888;
+}
+
+.modal-promo-form .input-group-promo select.form-control-promo {
+
+}
+.modal-promo-form .frm-promo .input-group-promo {
+	width: 95%;
+	padding:7px 5px;
+	text-align: left;
+}
+.modal-promo-form .input-group-promo.capture {
+	text-align: center;
+}
+.modal-promo-form .input-group-promo.area-btn {
+	text-align: center;
+	position: relative;
+	padding-top: 15px;
+}
+.modal-promo-form .input-group-promo .btn-reg-survey {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	background: #9e7c13;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;
+   text-transform: uppercase;
+   padding: 10px 25px; 
+}
+.modal-promo-form .frm-promo .input-group-promo input.form-control-promo{
+	width: 100%;
+	padding:5px 5px;
+	-webkit-border-radius: 0px; 
+   -moz-border-radius: 0px; 
+   border-radius: 0px;
+   background: transparent;
+   border-right: 1px solid transparent;
+   border-left: 1px solid transparent;
+   border-top: 1px solid transparent;
+   border-bottom: 1px solid #EAD868;
+   font-size: 14px;
+}
+/* The Close Button */
+.modal-promo-form .frm-promo .close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 1000;
+    top: 0px;
+    right: 5px;
+    position: absolute;
+    background: transparent;
+}
+.modal-promo-form .frm-promo .row .bottom-promo {
+	text-align: center;
+	position: relative;
+	padding: 5px 10px;
+}
+.modal-promo-form .frm-promo .row .bottom-promo a {
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+}
+.modal-promo-form .frm-promo .row .bottom-promo .fas {
+	color:#fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+@media only screen and (min-device-width: 991px) and (max-device-width:  1300px){
+/*@media (min-width: 991px) and (max-width: 1300px){*/
+	.modal-promo-form .frm-promo .close {
+	    color: #000;
+	    float: right;
+	    font-size: 28px;
+	    font-weight: bold;
+	    z-index: 1000;
+	    top: 0px;
+	    right: 5px;
+	    position: absolute;
+	    background: transparent;
+	}
+}
+.modal-promo-form .frm-promo .close:hover,
+.modal-promo-form .frm-promo .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-promo-form .modal-content-promo .loading {
+	max-width: 20px;
+	max-height: 20px;
+}
+canvas {
+	width: 100% !important;
+	height: auto !important;
+}
+@media (max-width: 768px) {
+	.modal-promo-form .frm-promo {
+	    position: relative;
+	    width: 100%;
+	    height: auto;
+	    overflow: hidden;
+	    background-image: url(../images/bg-spa.jpg);
+	    background-repeat: no-repeat;
+	    background-size: 100% auto;
+	    padding: 0px 0px;
+	    border: 1px solid #888;
+	    max-width: 600px;
+	}
+	.modal-promo-form .frm-promo .column {
+		float: left;
+	    width: 100%;
+	}
+	.modal-promo-form .frm-promo .column .register {
+		display: none;
+	}
+	.modal-promo-form .modal-content-promo {
+		background: #fff;
+	    background-image: none;
+	    margin: 20% auto; /* 15% from the top and centered */
+	    padding: 5px;
+	    border: 1px solid #888;
+	    width: 85%; /* Could be more or less, depending on screen size */
+	}
+	.modal-promo-form .frm-promo .column .pro-logo .lg {
+		max-width: 50%;
+		height: auto;
+	}
+	.modal-promo-form .frm-promo .close {
+	    color: #000;
+	    float: right;
+	    font-size: 28px;
+	    font-weight: bold;
+	    z-index: 1000;
+	    top: 0px;
+	    right: 5px;
+	    position: absolute;
+	    background: transparent;
+	}
+	.modal-promo-form .frm-promo .reg .receive h2 {
+	    color: #653a2f;
+	}
+	.modal-promo-form .frm-promo .column .form-reg {
+	    position: relative;
+	    height: 100%;
+	    background: transparent;
+	    padding: 25px;
+	    margin-top: 20px;
+	}
+}
+/*end promtion*/
+@media (min-width: 769px){
+	.call-mobile {
+		display: none;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		z-index: 10000;
+	}
+	
+}
+@media (max-width: 768px){
+	.call-mobile {
+		display: block;
+		position: fixed;
+		bottom: 1px;
+		left: 0px;
+		width: 100%;
+	}
+	.call-mobile ul {
+		list-style-type: none;
+	  	margin: 0;
+	  	padding: 0;
+	  	overflow: hidden;
+	  	background-color: rgba(0,0,0,0.3);
+	}
+	.call-mobile li {
+	  float: left;
+	  width: 50%;
+	  padding: 5px;
+	  text-align: center;
+	  display:inline;
+	}
+	.call-mobile li img {
+		width: 100%;
+		height: auto;
+	}
+	.call-mobile li .call {
+		max-width: 45px !important;
+	}
+	
+	.call-mobile ul li a {
+	  display: block;
+	  color: #fff;
+	  font-weight: 400;
+	  font-size: 14px;
+	  text-align: center;
+	  padding: 5px;
+	  text-decoration: none;
+	  border: 1px solid #cc9900;
+	  position: relative;
+	  background:rgba(204,153,0,0.6);
+	}
+	
+	.call-mobile ul li a.phone:before {
+		content: url(../images/call-mores.png);
+	   /* padding-right: 0.5em;*/
+	    padding-left: 5px;
+	    position: absolute;
+	    top: 0px;
+	    left: 0;
+	}
+	.call-mobile ul li a.message:before {
+		content: url(../images/icon-message1.png);
+	   /* padding-right: 0.5em;*/
+	    padding-left: 5px;
+	    position: absolute;
+	    top: 0px;
+	    left: 0;
+	}
+	.call-mobile li a:hover {
+	  background-color: #111111;
+	}	
+}
+.quick-reg ul {
+	list-style:none;
+    margin:0px auto;
+    padding:0;
+    text-align:center;
+    max-width: 300px;
+}
+.quick-reg ul li {
+    display:inline;
+}
+.quick-reg ul li a {
+	display:inline-block;
+    padding:0px;
+}
+.quick-reg ul li a img{
+	width: 100%;
+	height: auto;
+    vertical-align: middle;
+}
+@media (max-width: 768px){
+		.quick-reg ul {
+		list-style:none;
+	    margin:0px auto;
+	    padding:0;
+	    text-align:center;
+	    max-width: 70%;
+	}
+}
+
+/*floor2*/
+.modal-floor2-form .modal-floor2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-floor2-form .modal-content-floor2 {
+	text-align: center;
+    /*background-image: url(../images/nen-frm2.jpg);*/
+    margin: 15% auto; 
+    padding: 0px 0px;
+    border: 1px solid #888;
+    max-width: 450px;
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;  
+}
+.modal-floor2-form .modal-content-floor2 h2 {
+	font-size: 18px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-floor2-form .modal-content-floor2 h3 {
+	font-size: 16px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-floor2-form .modal-content-floor2 p {
+	font-size: 14px;
+	font-weight: 500px;
+	color: #451511;
+}
+.modal-floor2-form .frm-floor2 .floor2 {
+	position: relative;
+	padding: 5px 10px;
+}
+.modal-floor2-form .frm-floor2 .floor2 h2 {
+	text-transform: uppercase;
+}
+.modal-floor2-form .frm-floor2 .floor2 .logo {
+	max-width: 200px;
+	height: auto;
+}
+.modal-floor2-form .frm-floor2 img {
+	width: 100%;
+	height: auto;
+}
+.modal-floor2-form .frm-floor2 .banner {
+	width: 100%;
+	webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
+}
+.modal-floor2-form .input-group-floor2 select.form-control-floor2,
+.modal-floor2-form .frm-floor2 .input-group-floor2 {
+	width: 100%;
+	padding:3px 5px;
+	text-align: left;
+}
+.modal-floor2-form .input-group-floor2.capture {
+	text-align: center;
+}
+.modal-floor2-form .input-group-floor2 .btn-reg-survey {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	background: #DBC25D;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
+}
+.modal-floor2-form .frm-floor2 .input-group-floor2 input.form-control-floor2{
+	width: 100%;
+	padding:5px 5px;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;
+   border: 1px solid #EAD868;
+}
+/* The Close Button */
+.modal-floor2-form .modal-content-floor2 .close {
+    color: #fff;
+    float: right;
+    padding: 2px 6px;
+    font-size: 19px;
+    font-weight: bold;
+    z-index: -1;
+    margin-top: -20px;
+    right: 30%;
+    position: absolute;
+    background: rgba(0,0,0,.8);
+    webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.3;
+}
+
+.modal-floor2-form .modal-content-floor2 .close:hover,
+.modal-floor2-form .modal-content-floor2 .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-floor2-form .modal-content-floor2 .loading {
+	max-width: 20px;
+	max-height: 20px;
+}
+@media (max-width: 768px) {
+	.modal-floor2-form .modal-content-floor2 {
+	    text-align: center;
+	    background-image: url(../images/nen-frm2.jpg);
+	    margin: 45% 15px;
+	    padding: 0px 0px;
+	    border: 1px solid #888;
+	    max-width: 450px;
+	    -webkit-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+	}
+	.modal-floor2-form .modal-content-floor2 .close {
+	    color: #fff;
+	    float: right;
+	    padding: 2px 6px;
+	    font-size: 19px;
+	    font-weight: bold;
+	    z-index: -1;
+	    margin-top: -20px;
+	    right: 0%;
+	    position: absolute;
+	    background: rgba(0,0,0,.8);
+	    webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    border: 2px solid #ccc;
+	    text-shadow: 0 1px 0 #fff;
+	    opacity: 0.3;
+	}
+}
+/*end popup promotion floor 2*/
+/*floor 3*/
+.modal-floor3-form .modal-floor3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-floor3-form .modal-content-floor3 {
+	text-align: center;
+    background-image: url(../images/nen-frm2.jpg);
+    margin: 15% auto; 
+    padding: 0px 0px;
+    border: 1px solid #888;
+    max-width: 450px;
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;  
+}
+.modal-floor3-form .frm-floor3 img {
+	width: 100%;
+	height: auto;
+}
+.modal-floor3-form .frm-floor3 .banner {
+	width: 100%;
+	webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
+}
+.modal-floor3-form .modal-content-floor3 h2 {
+	font-size: 18px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-floor3-form .modal-content-floor3 h3 {
+	font-size: 16px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-floor3-form .modal-content-floor3 p {
+	font-size: 14px;
+	font-weight: 500px;
+	color: #451511;
+}
+.modal-floor3-form .frm-floor3 .floor3 {
+	position: relative;
+	padding: 5px 10px;
+}
+.modal-floor3-form .frm-floor3 .floor3 h2 {
+	text-transform: uppercase;
+}
+.modal-floor3-form .frm-floor3 .floor3 .logo {
+	max-width: 200px;
+	height: auto;
+}
+.modal-floor3-form .input-group-floor3 select.form-control-floor3,
+.modal-floor3-form .frm-floor3 .input-group-floor3 {
+	width: 100%;
+	padding:3px 5px;
+	text-align: left;
+}
+.modal-floor3-form .input-group-floor3.capture {
+	text-align: center;
+}
+.modal-floor3-form .input-group-floor3 .btn-reg-survey {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	background: #DBC25D;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
+}
+.modal-floor3-form .frm-floor3 .input-group-floor3 input.form-control-floor3{
+	width: 100%;
+	padding:5px 5px;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;
+   border: 1px solid #EAD868;
+}
+/* The Close Button */
+.modal-floor3-form .modal-content-floor3 .close {
+    color: #fff;
+    float: right;
+    padding: 2px 6px;
+    font-size: 19px;
+    font-weight: bold;
+    z-index: -1;
+    margin-top: -20px;
+    right: 30%;
+    position: absolute;
+    background: rgba(0,0,0,.8);
+    webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.3;
+}
+
+.modal-floor3-form .modal-content-floor3 .close:hover,
+.modal-floor3-form .modal-content-floor3 .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-floor3-form .modal-content-floor3 .loading {
+	max-width: 20px;
+	max-height: 20px;
+}
+@media (max-width: 768px) {
+	.modal-floor3-form .modal-content-floor3 {
+	    text-align: center;
+	    background-image: url(../images/nen-frm2.jpg);
+	    margin: 45% 15px;
+	    padding: 0px 0px;
+	    border: 1px solid #888;
+	    max-width: 450px;
+	    -webkit-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+	}
+	.modal-floor3-form .modal-content-floor3 .close {
+	    color: #fff;
+	    float: right;
+	    padding: 2px 6px;
+	    font-size: 19px;
+	    font-weight: bold;
+	    z-index: -1;
+	    margin-top: -20px;
+	    right: 0%;
+	    position: absolute;
+	    background: rgba(0,0,0,.8);
+	    webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    border: 2px solid #ccc;
+	    text-shadow: 0 1px 0 #fff;
+	    opacity: 0.3;
+	}
+}
+/*floor 4*/
+/*floor4*/
+.modal-floor4-form .modal-floor4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-floor4-form .modal-content-floor4 {
+	text-align: center;
+    /*background-image: url(../images/nen-frm2.jpg);*/
+    margin: 15% auto; 
+    padding: 0px 0px;
+    border: 1px solid #888;
+    max-width: 450px;
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;  
+}
+.modal-floor4-form .modal-content-floor4 h2 {
+	font-size: 18px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-floor4-form .modal-content-floor4 h3 {
+	font-size: 16px;
+	font-weight: 600px;
+	color: #451511;
+}
+.modal-floor4-form .modal-content-floor4 p {
+	font-size: 14px;
+	font-weight: 500px;
+	color: #451511;
+}
+.modal-floor4-form .frm-floor4 .floor4 {
+	position: relative;
+	padding: 5px 10px;
+}
+.modal-floor4-form .frm-floor4 .floor4 h2 {
+	text-transform: uppercase;
+}
+.modal-floor4-form .frm-floor4 .floor4 .logo {
+	max-width: 200px;
+	height: auto;
+}
+.modal-floor4-form .frm-floor4 img {
+	width: 100%;
+	height: auto;
+}
+.modal-floor4-form .frm-floor4 .banner {
+	width: 100%;
+	webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
+}
+.modal-floor4-form .input-group-floor4 select.form-control-floor4,
+.modal-floor4-form .frm-floor4 .input-group-floor4 {
+	width: 100%;
+	padding:3px 5px;
+	text-align: left;
+}
+.modal-floor4-form .input-group-floor4.capture {
+	text-align: center;
+}
+.modal-floor4-form .input-group-floor4 .btn-reg-survey {
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	background: #DBC25D;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
+}
+.modal-floor4-form .frm-floor4 .input-group-floor4 input.form-control-floor4{
+	width: 100%;
+	padding:5px 5px;
+	-webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px;
+   border: 1px solid #EAD868;
+}
+/* The Close Button */
+.modal-floor4-form .modal-content-floor4 .close {
+    color: #fff;
+    float: right;
+    padding: 2px 6px;
+    font-size: 19px;
+    font-weight: bold;
+    z-index: -1;
+    margin-top: -20px;
+    right: 30%;
+    position: absolute;
+    background: rgba(0,0,0,.8);
+    webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.3;
+}
+
+.modal-floor4-form .modal-content-floor4 .close:hover,
+.modal-floor4-form .modal-content-floor4 .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-floor4-form .modal-content-floor4 .loading {
+	max-width: 20px;
+	max-height: 20px;
+}
+@media (max-width: 768px) {
+	.modal-floor4-form .modal-content-floor4 {
+	    text-align: center;
+	    background-image: url(../images/nen-frm2.jpg);
+	    margin: 45% 15px;
+	    padding: 0px 0px;
+	    border: 1px solid #888;
+	    max-width: 450px;
+	    -webkit-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+	}
+	.modal-floor4-form .modal-content-floor4 .close {
+	    color: #fff;
+	    float: right;
+	    padding: 2px 6px;
+	    font-size: 19px;
+	    font-weight: bold;
+	    z-index: -1;
+	    margin-top: -20px;
+	    right: 0%;
+	    position: absolute;
+	    background: rgba(0,0,0,.8);
+	    webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    border: 2px solid #ccc;
+	    text-shadow: 0 1px 0 #fff;
+	    opacity: 0.3;
+	}
+}
+@media (min-width: 1920px) {
+	.modal-floor2-form .modal-content-floor2 .close,
+	.modal-floor3-form .modal-content-floor3 .close,
+	.modal-floor4-form .modal-content-floor4 .close {
+	    color: #fff;
+	    float: right;
+	    padding: 2px 6px;
+	    font-size: 19px;
+	    font-weight: bold;
+	    z-index: -1;
+	    margin-top: -20px;
+	    right: 36%;
+	    position: absolute;
+	    background: rgba(0,0,0,.8);
+	    webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border-radius: 50%;
+	    border: 2px solid #ccc;
+	    text-shadow: 0 1px 0 #fff;
+	    opacity: 0.3;
+	}
+}

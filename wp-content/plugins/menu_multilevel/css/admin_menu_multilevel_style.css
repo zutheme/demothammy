@@ -1,0 +1,9 @@
+
+.wrap .form-table td.form-control{
+	width: 100%;
+	position: relative;
+}
+.wrap .form-table .opt {
+	width: 100%;
+	position: relative;
+}

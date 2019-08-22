@@ -1,0 +1,12 @@
+.htz_image_banner {
+	width: 100%;
+}
+.htz_image_banner .thumb {
+	width: 100%;
+	height: auto;
+}
+.htz_image_banner img{
+	width: auto;
+	height: auto;
+	text-align: middle;
+}

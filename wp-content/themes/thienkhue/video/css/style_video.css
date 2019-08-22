@@ -1,0 +1,394 @@
+.home-video {
+
+  width: 100%; 
+
+  height: auto; 
+
+  /*overflow: hidden;*/
+
+  z-index: 0;
+
+  background: #fff;
+
+}
+
+#video-bg {
+
+  position: relative;
+
+  width: 100%;
+
+  height: auto;
+
+  background: transparent url(../images/background-video.jpg) no-repeat;
+
+  background-size: cover;
+
+}
+
+video {
+
+  max-width: 100%;
+
+  max-height: 100%;
+
+  display: inline-block;
+
+  vertical-align: middle;
+
+}
+
+.video-container {
+
+  width: 100%; /* Play with this value */
+
+  height: auto;  /* Play with this value */
+
+  overflow: hidden;
+
+  z-index: 0;
+
+}
+
+/*.video-container .mask{
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 87%;
+
+    top:90px;
+
+    left: 0px;
+
+    bottom: 0px;
+
+    opacity: 0.3;
+
+    z-index: 0;
+
+    background: rgb(204,153,0,0.6);
+
+}*/
+
+
+
+.video-container .desc .bnt-center{
+
+    position: relative;
+
+    padding-top: 35%;
+
+    text-align: center;
+
+}
+
+.video-container .desc{
+
+    position: relative;
+
+    width: 100%;
+
+    height: 100%;
+
+    top:87px;
+
+    left: 0px;
+
+    z-index: 0;
+
+    background: transparent;
+
+    padding-left: 5px;
+
+    padding-top:5px; 
+
+    text-align:center;
+
+}
+
+.video-container .desc .sub-title{
+
+  position: relative;
+
+  padding-top: 8%;
+
+  text-align: center;
+
+  padding-bottom: 25px;
+
+}
+
+.video-container .desc .sub-title .cuocthi{
+
+  color: #fff;
+
+  font-size: 3.5em;
+
+  font-family: 'Comfortaa', cursive;
+
+  text-transform: uppercase;
+
+  font-weight: 700;
+
+}
+
+.video-container .desc .sub-title .chiase{
+
+  color: #fff;
+
+  font-family: 'Comfortaa', cursive;
+
+  text-transform: uppercase;
+
+  font-weight: 300;
+
+}
+
+.video-container .desc .v-logo img{
+
+    width: 100%;
+
+    height: auto;
+
+}
+
+.video-container .desc .v-logo .vlogo-img{
+
+    width: 100px;
+
+    height: auto;
+
+}
+
+.video-container .desc .v-logo {
+
+  color: #fff;
+
+  position: relative;
+
+  padding-top:5%;
+
+  text-align: center;
+
+  z-index: 1000;
+
+}
+
+.video-container .desc .v-logo .thammy{
+
+  font-size: 15px;
+
+  font-weight: 400;
+
+  text-transform: uppercase;
+
+}
+
+.video-container .desc .v-logo .thienkhue{
+
+  font-size: 23px;
+
+  font-weight: 600;
+
+  font-family: 'Bungee', cursive;
+
+  text-transform: uppercase;
+
+}
+
+.video-container .desc .v-logo .khangdinh{
+
+  font-size: 16px;
+
+  font-weight: 300;
+
+  font-family: 'Dancing Script', cursive
+
+}
+
+.video-container .mask .poster{
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 87%;
+
+    top:0px;
+
+    z-index: -10;
+
+}
+
+
+
+.video-container .desc .bnt-center button{
+
+  background: transparent;
+
+  border: none;
+
+  margin: 0px auto;
+
+  padding: 0px auto;
+
+  opacity: 0.3;
+
+}
+
+
+
+video::-webkit-media-controls-fullscreen-button
+
+{
+
+        display: none !important;
+
+}
+
+@media (max-width: 768px){
+
+    .home-video {
+
+      width: 100%; /* Play with this value */
+
+      height: auto;  /* Play with this value */
+
+      overflow: hidden;
+
+      z-index: 0;
+
+      background: transparent;
+
+    }
+
+    /*.video-container .mask{
+
+      position: absolute;
+
+      width: 100%;
+
+      height: 100%;
+
+      top:0px;
+
+      left: 0px;
+
+      bottom: 0px;
+
+      opacity: 0.3;
+
+      z-index: 0;
+
+      background: #000;
+
+  }*/
+
+  .video-container .desc {
+
+    position: relative;
+
+    width: 100%;
+
+    height: auto;
+
+    top: 0px;
+
+    left: 0px;
+
+    z-index: 0;
+
+    background: transparent;
+
+    padding-left: 5px;
+
+    padding-top: 5px;
+
+    text-align: center;
+
+}
+
+  .video-container .desc .v-logo .vlogo-img{
+
+    width: 50px;
+
+    height: auto;
+
+  }
+
+  .video-container .desc .v-logo {
+
+    color: #fff;
+
+    position: relative;
+
+    padding-top:5%;
+
+    text-align: center;
+
+    z-index: 1000;
+
+  }
+
+  .video-container .desc .sub-title {
+
+      position: relative;
+
+      padding-top: 22px;
+
+      text-align: center;
+
+      padding-bottom: 0px;
+
+  }
+
+  .video-container .desc .sub-title .cuocthi {
+
+    color: #fff;
+
+    font-size: 1.9em;
+
+    font-family: 'Oswald', sans-serif;
+
+    text-transform: uppercase;
+
+    font-weight: 500;
+
+  }
+
+  .video-container .desc .sub-title .chiase{
+
+    color: #fff;
+
+    font-family: 'Oswald', sans-serif;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+    font-size: 16px; 
+
+  }
+
+  .video-container .desc .bnt-center{
+
+      position: relative;
+
+      padding-top: 0px;
+
+      text-align: center;
+
+  }
+
+  .bnt-center .play,.bnt-center .play{
+
+    height: 25px;
+
+    width: 25px;
+
+  }
+
+}
+

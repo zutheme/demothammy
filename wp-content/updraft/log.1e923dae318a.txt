@@ -1,0 +1,68 @@
+0000.019 () Opened log file at time: Sat, 05 May 2018 16:28:26 +0000 on http://thammyvienthienkhue.com
+0000.019 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.7 WP: 4.9.5 PHP: 7.2.5 (apache2handler, Linux sd108227.server.idn.vn 2.6.32-642.11.1.el6.x86_64 #1 SMP Fri Nov 18 19:25:05 UTC 2016 x86_64) MySQL: 5.5.31 WPLANG: vi Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 68M | 14.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.019 () Free space on disk containing Updraft's temporary directory: 78044.1 MB
+0000.024 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_collate":"utf8mb4_general_ci","updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.043 () Entity: db
+0000.043 () restore_backup(backup_file=backup_2018-05-05-2040_Thm_M_Vin_ec53f4cb0b6d-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.043 () Unpacking backup... (backup_2018-05-05-2040_Thm_M_Vin_ec53f4cb0b6d-db.gz, 2.5 Mb)
+0000.049 () Database successfully unpacked
+0000.049 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.049 () Using direct MySQL access; value of use_mysqli is: 1
+0000.092 () Tried to raise max_allowed_packet from 1 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.092 () Max packet size: 1 MB
+0000.092 () Entering maintenance mode
+0000.092 () Bật chế độ Bảo trì&#8230;
+0000.094 () Backup of: https://thammyvienthienkhue.vn
+0000.096 () Content URL: https://thammyvienthienkhue.vn/wp-content
+0000.096 () Uploads URL: https://thammyvienthienkhue.vn/wp-content/uploads
+0000.096 () Old table prefix: wp_
+0000.096 () Site information: multisite=0
+0000.097 () New table prefix: wp_
+0000.106 () Processing table (InnoDB): wp_options
+0000.460 () Restoring prior UD configuration (table: wp_options; keys: 91)
+0000.935 () Processing table (InnoDB): wp_users
+0000.968 () Processing table (InnoDB): wp_usermeta
+0001.009 () Processing table (InnoDB): wp_commentmeta
+0001.035 () Processing table (InnoDB): wp_comments
+0001.075 () Processing table (InnoDB): wp_links
+0001.114 () Processing table (InnoDB): wp_postmeta
+0002.136 () Database queries processed: 50 in 2.08 seconds
+0002.137 () Processing table (InnoDB): wp_posts
+0004.511 () Processing table (InnoDB): wp_term_relationships
+0004.544 () Processing table (InnoDB): wp_term_taxonomy
+0004.568 () Database queries processed: 100 in 4.52 seconds
+0004.572 () Processing table (InnoDB): wp_termmeta
+0004.594 () Processing table (InnoDB): wp_terms
+0004.623 () Processing table (InnoDB): wp_categorymeta
+0004.736 () Processing table (InnoDB): wp_duplicator_packages
+0004.765 () Processing table (InnoDB): wp_ib2_conversions
+0004.785 () Processing table (InnoDB): wp_ib2_facebook
+0004.804 () Processing table (InnoDB): wp_ib2_funnel
+0004.825 () Processing table (InnoDB): wp_ib2_groups
+0004.844 () Processing table (InnoDB): wp_ib2_histories
+0004.864 () Processing table (InnoDB): wp_ib2_hits
+0004.888 () Processing table (InnoDB): wp_ib2_pages
+0004.911 () Processing table (InnoDB): wp_ib2_quiz_questions
+0004.932 () Processing table (InnoDB): wp_ib2_quiz_stats
+0004.953 () Processing table (InnoDB): wp_ib2_quizzes
+0004.972 () Processing table (InnoDB): wp_ib2_templates
+0005.002 () Processing table (InnoDB): wp_ib2_templatesets
+0005.025 () Processing table (InnoDB): wp_ib2_variants
+0005.048 () Processing table (InnoDB): wp_masterslider_options
+0005.081 () Processing table (InnoDB): wp_masterslider_sliders
+0005.113 () Database queries processed: 150 in 5.06 seconds
+0005.113 () Processing table (InnoDB): wp_member_catmeta
+0005.132 () Processing table (InnoDB): wp_portfolio_catmeta
+0005.152 () Processing table (InnoDB): wp_product_catmeta
+0005.170 () Processing table (InnoDB): wp_smush_dir_images
+0005.194 () Processing table (InnoDB): wp_vimeography_gallery
+0005.212 () Processing table (InnoDB): wp_vimeography_gallery_meta
+0005.230 () Processing table (InnoDB): wp_xcloner_scheduler
+0005.250 () Processing table (InnoDB): wp_yoast_seo_links
+0005.292 () Processing table (InnoDB): wp_yoast_seo_meta
+0005.320 () Unlocking database and leaving maintenance mode
+0005.320 () Vô hiệu hóa chế độ bảo trì&#8230;
+0005.321 () Finished: lines processed: 172 in 5.27 seconds
+0005.322 () Cleaning up rubbish...
+0005.342 () Restore successful!
+0005.342 () Restore successful

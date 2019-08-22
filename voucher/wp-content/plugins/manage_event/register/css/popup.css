@@ -1,0 +1,816 @@
+
+
+.hatazu_event_bsnhatoi .modal-dialog {
+
+          max-width: 950px;
+
+          height:auto;
+
+        }
+
+.hatazu_event_bsnhatoi .modal-content {
+
+    background-image: url(../images/nen-frm2.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: 100% auto;
+
+    background-position: left 0px bottom;
+
+    min-height: 300px;
+
+    background-color:#7A5855;
+
+    z-index: 0;
+ 
+}        
+
+.hatazu_event_bsnhatoi .modal-header {
+
+    background-color: transparent;
+
+    padding:10px 16px;
+
+    color:#fff;
+
+    border-bottom:0px dashed #337AB7;
+
+ }
+
+ .hatazu_event_bsnhatoi .modal-header .head{
+
+    text-align: center;
+
+ }
+
+ .hatazu_event_bsnhatoi .modal-header .head .first{
+
+    font-family: Open Sans;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+    text-transform: none;
+
+ }
+
+ .hatazu_event_bsnhatoi .modal-header .head .second{
+
+    font-family: Open Sans;
+
+    font-weight: 600;
+
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+ }
+
+.hatazu_event_bsnhatoi .modal-header h4{
+
+    color: #4D1F1C;
+
+    display: block;
+
+    text-transform: uppercase;
+
+ }
+
+.hatazu_event_bsnhatoi .modal-content .form-control {
+
+    border-color: #ccc;
+
+}
+
+.hatazu_event_bsnhatoi .logo{
+
+    position: relative;
+
+   text-align: left;
+
+   padding-left: 55px;
+
+   padding-top: 15px;
+
+}
+
+.hatazu_event_bsnhatoi .logo .size{
+
+    padding: 15px 15px;
+
+}
+
+.hatazu_event_bsnhatoi .logo img{
+
+    width: 100px;
+
+    height: auto;
+
+}
+
+.hatazu_event_bsnhatoi .modal-body {
+
+    position: relative;
+
+    padding: 0px 35px;
+
+}
+
+.hatazu_event_bsnhatoi .modal-body .register{
+
+    margin: 10px auto;
+
+}
+
+.hatazu_event_bsnhatoi .modal-body #consultant{
+
+    padding-top: 40px;
+
+}
+
+
+
+.hatazu_event_bsnhatoi .condition .border-top{
+
+	background: url(../images/border-top.png);
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    height: 5px;
+
+    margin-top: 10px;
+
+    padding-bottom: 5px;
+
+}
+
+.hatazu_event_bsnhatoi .close {
+
+    float: right;
+
+    font-size: 21px;
+
+    font-weight: bold;
+
+    line-height: 1;
+
+    color: #fff;
+
+    text-shadow: 0 1px 0 #fff;
+
+    filter: alpha(opacity=90);
+
+    opacity: .9;
+
+}
+
+.hatazu_event_bsnhatoi .alert {
+
+    padding: 5px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+
+}
+
+.hatazu_event_bsnhatoi .condition ul {
+
+    list-style: none;
+
+    padding-left: 0px;
+
+}
+
+.hatazu_event_bsnhatoi .time {
+
+    position: relative;
+
+    padding-left: 25%;
+
+    margin: -15px auto;
+
+    max-width: 400px;
+
+}
+
+.hatazu_event_bsnhatoi .time ul{
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+
+}
+
+.hatazu_event_bsnhatoi .time ul li{
+
+    color: #fff;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    float: left;
+
+    width: 25%;
+
+    text-align: center;
+
+    padding:5px 15px;
+
+    background: #f60101;
+
+    border:1px solid #f40202;
+
+}
+
+
+
+.hatazu_event_bsnhatoi .time ul li span{
+
+    font-size: 12px;
+
+    font-weight: 400;
+
+    color:#F0C44D;
+
+}
+
+/*.hatazu_event_bsnhatoi .time ul li .days,*/
+
+.hatazu_event_bsnhatoi .time ul li .hours,
+
+.hatazu_event_bsnhatoi .time ul li .minutes,
+
+.hatazu_event_bsnhatoi .time ul li .seconds{
+
+    width: 50px;
+
+    height: auto;
+
+}
+
+
+
+.hatazu_event_bsnhatoi .footer-condition {
+
+     padding-top: 35px;
+
+     padding-bottom: 0px;   
+
+}
+
+.hatazu_event_bsnhatoi .modal-footer {
+
+    padding: 0px 15px;
+
+    text-align: right;
+
+    border-top: 0px solid #e5e5e5;
+
+    background-color:#fff;
+
+}
+
+.hatazu_event_bsnhatoi .detail-condition {
+
+    color:#000;
+
+    background: #fff;
+
+}
+
+.hatazu_event_bsnhatoi .detail-condition .detail ul li {
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+}
+
+.hatazu_event_bsnhatoi .detail-condition .detail .title{
+
+    padding-top: 0px;
+
+    text-align: center;
+
+    color:#4EA763;
+
+}
+
+.hatazu_event_bsnhatoi .detail-condition .detail a{
+
+    font-weight: 400;
+
+    font-size: 18px;
+
+    color:#4EA763;
+
+}
+
+.hatazu_event_bsnhatoi .detail-condition .detail h6{
+
+    color:#000;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+    text-transform: none;
+
+}
+
+.hatazu_event_bsnhatoi .detail-condition .detail{
+
+    padding-top: 15px;
+
+    text-align: left;
+
+}
+
+.hatazu_event_bsnhatoi .count-down {
+
+    
+
+}
+
+.hatazu_event_bsnhatoi .btn-join{
+
+	background: url(../images/bgbutton.png);
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+    padding: 1px 5px;
+
+    border: none;
+
+    color: #633B38;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    width: 100%;
+
+}
+
+.hatazu_event_bsnhatoi .btn-join:after {
+
+    content: '\f101';
+
+    font-family: FontAwesome;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    text-decoration: inherit;
+
+    text-rendering: auto;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+    color: #633B38;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+    position: relative;
+
+    padding-top: 0px;
+
+    padding-left: 15px;
+
+}
+
+.hatazu_event_bsnhatoi .btn-join:hover{
+
+    background: #232323;
+
+    color: #fff;
+
+    padding-left: 45px;
+
+     transition: all .6s ease;
+
+}
+
+
+
+.hatazu_event_bsnhatoi .btn-join:hover:after {
+
+    background: transparent;
+
+    color: #fff;  
+
+    padding-left: 45px;
+
+    opacity: 0;
+
+   /* margin: 1px 0 5px 25px;*/
+
+     transition: all .6s ease;
+
+}
+
+.hatazu_event_bsnhatoi  .ddselect{
+
+    position: relative;
+
+    width: 100%;
+
+    margin-bottom: 15px;
+
+}
+
+.hatazu_event_bsnhatoi .show-time .time{
+
+    position: relative;
+
+    margin-left:100px;
+
+}
+
+.hatazu_event_bsnhatoi .show-time h3{
+
+    color:#fff;
+
+    font-weight: 700;
+
+    font-size: 18px;
+
+    margin: 0px auto;
+
+}
+
+.hatazu_event_bsnhatoi .show-time span{
+
+    position: relative;
+
+    min-width: 100px;
+
+    height: auto;
+
+    padding: 3px 5px;
+
+    color:#fff;
+
+    background: #F50000;
+
+}
+
+.hatazu_event_bsnhatoi  .gift img{
+
+   	width: 100%;
+
+   	height: auto; 		
+
+   }
+
+  @media (min-width: 350px) and (max-width: 768px) {
+
+    .hatazu_event_bsnhatoi .modal-dialog {
+
+          width: 340px;         
+
+        }
+
+    .hatazu_event_bsnhatoi .logo img{
+
+    	max-width: 100%;
+
+    	height: auto;
+
+    	opacity: 0.0;
+
+    }
+
+    .hatazu_event_bsnhatoi .condition .border-top h6{
+
+    	color: #fff;
+
+    }
+
+  }
+
+  @media (max-width: 350px) {
+
+    .hatazu_event_bsnhatoi .modal-dialog {
+
+          width: 290px;         
+
+        }
+
+    }
+
+ @media screen and (min-width: 768px) {
+
+        .hatazu_event_bsnhatoi .modal-dialog {
+
+          width: 700px; 
+
+        }
+
+        .hatazu_event_bsnhatoi .modal-sm {
+
+          width: 350px; 
+
+        }
+
+        .hatazu_event_bsnhatoi .gift{
+
+    		display: none;
+
+    	}
+
+    }
+
+    @media screen and (min-width: 992px) {
+
+        .hatazu_event_bsnhatoi .modal-lg {
+
+          width: 950px;
+
+        }
+
+    }
+
+
+
+/* css list sprites background ------------- */
+
+#listsprites {float:left; margin:0px; font:14px/16px 'lucida grande', tahoma, verdana, arial, sans-serif;}
+
+#listsprites .line1 a {border:0; color:#fff; text-decoration:none; line-height:30px;}
+
+#listsprites .line2 a {clear: both; border:0; color: #FE0000 !important; text-decoration:none; line-height:30px;}
+
+#listsprites a:hover,
+
+#listsprites a:focus,
+
+#listsprites a:active {text-decoration:underline; background:transparent;}
+
+#listsprites .user {overflow:hidden; margin:0 0 10px;}
+
+#listsprites .user img {float:left; margin:0 8px 0 0;}
+
+#listsprites .user a {display:block;}
+
+#listsprites .fn {padding:3px 0; font-weight:bold;}
+
+#listsprites ul {width:290px; padding:0; margin:0; list-style:none;}
+
+#listsprites li a {display:block; padding:3px 8px 4px 0px;}
+
+#listsprites li a .icon1{
+
+    padding: 0px 5px 0px 0px;
+
+}
+
+#listsprites li a .icon2{
+
+    padding: 5px 10px 0px 10px;
+
+}
+
+#listsprites li a img{
+
+    width: 50px;
+
+    height: auto;
+
+}
+
+#listsprites li a:hover,
+
+#listsprites li a:focus,
+
+#listsprites li a:active {
+
+text-decoration:underline;
+
+/*-moz-box-shadow: 0px 0px 3px #403f40;
+
+-webkit-box-shadow: 0px 0px 3px #403f40;
+
+box-shadow: 0px 0px 3px #403f40;*/
+
+}
+
+#listsprites li.current a {font-weight:bold; color:#333; background:#D8DFEA;}
+
+#listsprites li a:before {
+
+    content:"";
+
+    float:left;
+
+    width:50px;
+
+    height:auto;
+
+    margin:0 6px 0 0;
+
+}
+
+#listsprites .line1 span img{
+
+    width: 100px;
+
+    height: auto;
+
+}
+
+@media (min-width: 768px){
+
+    .hatazu_event_bsnhatoi .register .show-time {
+
+        display: none;
+
+    }
+
+}
+
+@media (max-width: 767px){
+
+     .hatazu_event_bsnhatoi .register .show-time {
+
+        display: block;
+
+    }
+
+
+
+    .hatazu_event_bsnhatoi .time {
+
+        position: relative;
+
+        padding-left: 25%;
+
+        margin: -15px auto;
+
+        max-width: 400px;
+
+    }
+
+    .hatazu_event_bsnhatoi .time ul li span{
+
+        font-size: 12px;
+
+        font-weight: 400;
+
+        color:#69BF80;
+
+    }
+
+    .hatazu_event_bsnhatoi .show-time span{
+
+        position: relative;
+
+        min-width: 100px;
+
+        height: auto;
+
+        padding: 3px 5px;
+
+        color:#fff;
+
+        background:#69BF80;
+
+    }
+
+}
+
+@media (min-width: 751px) and (max-width: 991px){
+
+   .hatazu_event_bsnhatoi .time {
+
+        position: relative;
+
+        padding-left: 27%;
+
+        margin: -15px auto;
+
+        max-width: 400px;
+
+    }
+
+}
+
+
+
+@media (max-width: 750px){
+
+    .hatazu_event_bsnhatoi .footer-condition {
+
+        padding-top: 5px;
+
+        padding-bottom: 0px;
+
+    }
+
+    .hatazu_event_bsnhatoi .show-time .time {
+
+        position: relative;
+
+        margin-left: 0px;
+
+    }
+
+    .hatazu_event_bsnhatoi .time {
+
+        position: relative;
+
+        padding-left: 0%;
+
+        margin: 0px auto;
+
+        max-width: 400px;
+
+    }
+
+    .hatazu_event_bsnhatoi .time ul{
+
+        list-style-type: none;
+
+        margin: 0;
+
+        padding: 0;
+
+        overflow: hidden;
+
+        width: 100%;
+
+    }
+
+    .hatazu_event_bsnhatoi .time ul li{
+
+        color: #fff;
+
+        font-size: 16px;
+
+        font-weight: 700;
+
+        float: left;
+
+        width: 25%;
+
+        text-align: center;
+
+        padding:5px 15px;
+
+        background: #63b479;
+
+        border:1px solid #5eaa72;
+
+    }
+
+
+
+    .hatazu_event_bsnhatoi .time ul li span{
+
+        font-size: 12px;
+
+        font-weight: 400;
+
+        color:#F0C44D;
+
+    }
+
+    /*.hatazu_event_bsnhatoi .time ul li .days,*/
+
+    .hatazu_event_bsnhatoi .time ul li .hours,
+
+    .hatazu_event_bsnhatoi .time ul li .minutes,
+
+    .hatazu_event_bsnhatoi .time ul li .seconds{
+
+        width: 50px;
+
+        height: auto;
+
+    }
+
+}
+
+
+

@@ -1,0 +1,38 @@
+.video-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: 0;
+}
+#video-bg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: transparent url(../images/background-video.jpg) no-repeat;
+    background-size: cover;
+}
+video {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.video-container .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 0.5;
+    background: rgb(0,0,0,0.3);
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.video-container .mask .bnt-center {
+    position: relative;
+    padding-top: 25%;
+    text-align: center;
+}
+.video-container .mask .bnt-center button {
+    background: transparent;
+    border: 1px solid transparent;
+}

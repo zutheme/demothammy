@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://core.ws.brandname.tuankiet.com" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://core.ws.brandname.tuankiet.com">
+    <wsdl:documentation>sms</wsdl:documentation>
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://core.ws.brandname.tuankiet.com">
+            <xs:element name="sendUni">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="from" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sms" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendUniResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsWap">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="from" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sms" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsWapResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsToListPhone">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="phones" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sender" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sms" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsToListPhoneResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsReport">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="from" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sms" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsReportResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsFlash">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="from" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sms" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsFlashResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSms">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="from" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sms" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendSmsResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendFlash">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="from" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sms" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="ipAddress" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="deliveryTime" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sign" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendFlashResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="send">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="from" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sms" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="ipAddress" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="deliveryTime" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sign" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sendResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStatusPartner">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="partnerId" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStatusPartnerResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getBrandNames">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getBrandNamesResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getBalance">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getBalanceResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="createSender">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="account" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="sender" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="createSenderResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="sendSmsRequest">
+        <wsdl:part name="parameters" element="ns:sendSms"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsResponse">
+        <wsdl:part name="parameters" element="ns:sendSmsResponse"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsToListPhoneRequest">
+        <wsdl:part name="parameters" element="ns:sendSmsToListPhone"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsToListPhoneResponse">
+        <wsdl:part name="parameters" element="ns:sendSmsToListPhoneResponse"/>
+    </wsdl:message>
+    <wsdl:message name="getStatusPartnerRequest">
+        <wsdl:part name="parameters" element="ns:getStatusPartner"/>
+    </wsdl:message>
+    <wsdl:message name="getStatusPartnerResponse">
+        <wsdl:part name="parameters" element="ns:getStatusPartnerResponse"/>
+    </wsdl:message>
+    <wsdl:message name="sendUniRequest">
+        <wsdl:part name="parameters" element="ns:sendUni"/>
+    </wsdl:message>
+    <wsdl:message name="sendUniResponse">
+        <wsdl:part name="parameters" element="ns:sendUniResponse"/>
+    </wsdl:message>
+    <wsdl:message name="getBrandNamesRequest">
+        <wsdl:part name="parameters" element="ns:getBrandNames"/>
+    </wsdl:message>
+    <wsdl:message name="getBrandNamesResponse">
+        <wsdl:part name="parameters" element="ns:getBrandNamesResponse"/>
+    </wsdl:message>
+    <wsdl:message name="sendFlashRequest">
+        <wsdl:part name="parameters" element="ns:sendFlash"/>
+    </wsdl:message>
+    <wsdl:message name="sendFlashResponse">
+        <wsdl:part name="parameters" element="ns:sendFlashResponse"/>
+    </wsdl:message>
+    <wsdl:message name="getBalanceRequest">
+        <wsdl:part name="parameters" element="ns:getBalance"/>
+    </wsdl:message>
+    <wsdl:message name="getBalanceResponse">
+        <wsdl:part name="parameters" element="ns:getBalanceResponse"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsWapRequest">
+        <wsdl:part name="parameters" element="ns:sendSmsWap"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsWapResponse">
+        <wsdl:part name="parameters" element="ns:sendSmsWapResponse"/>
+    </wsdl:message>
+    <wsdl:message name="createSenderRequest">
+        <wsdl:part name="parameters" element="ns:createSender"/>
+    </wsdl:message>
+    <wsdl:message name="createSenderResponse">
+        <wsdl:part name="parameters" element="ns:createSenderResponse"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsFlashRequest">
+        <wsdl:part name="parameters" element="ns:sendSmsFlash"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsFlashResponse">
+        <wsdl:part name="parameters" element="ns:sendSmsFlashResponse"/>
+    </wsdl:message>
+    <wsdl:message name="sendRequest">
+        <wsdl:part name="parameters" element="ns:send"/>
+    </wsdl:message>
+    <wsdl:message name="sendResponse">
+        <wsdl:part name="parameters" element="ns:sendResponse"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsReportRequest">
+        <wsdl:part name="parameters" element="ns:sendSmsReport"/>
+    </wsdl:message>
+    <wsdl:message name="sendSmsReportResponse">
+        <wsdl:part name="parameters" element="ns:sendSmsReportResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="smsPortType">
+        <wsdl:operation name="sendSms">
+            <wsdl:input message="ns:sendSmsRequest" wsaw:Action="urn:sendSms"/>
+            <wsdl:output message="ns:sendSmsResponse" wsaw:Action="urn:sendSmsResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsToListPhone">
+            <wsdl:input message="ns:sendSmsToListPhoneRequest" wsaw:Action="urn:sendSmsToListPhone"/>
+            <wsdl:output message="ns:sendSmsToListPhoneResponse" wsaw:Action="urn:sendSmsToListPhoneResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getStatusPartner">
+            <wsdl:input message="ns:getStatusPartnerRequest" wsaw:Action="urn:getStatusPartner"/>
+            <wsdl:output message="ns:getStatusPartnerResponse" wsaw:Action="urn:getStatusPartnerResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="sendUni">
+            <wsdl:input message="ns:sendUniRequest" wsaw:Action="urn:sendUni"/>
+            <wsdl:output message="ns:sendUniResponse" wsaw:Action="urn:sendUniResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getBrandNames">
+            <wsdl:input message="ns:getBrandNamesRequest" wsaw:Action="urn:getBrandNames"/>
+            <wsdl:output message="ns:getBrandNamesResponse" wsaw:Action="urn:getBrandNamesResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="sendFlash">
+            <wsdl:input message="ns:sendFlashRequest" wsaw:Action="urn:sendFlash"/>
+            <wsdl:output message="ns:sendFlashResponse" wsaw:Action="urn:sendFlashResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getBalance">
+            <wsdl:input message="ns:getBalanceRequest" wsaw:Action="urn:getBalance"/>
+            <wsdl:output message="ns:getBalanceResponse" wsaw:Action="urn:getBalanceResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsWap">
+            <wsdl:input message="ns:sendSmsWapRequest" wsaw:Action="urn:sendSmsWap"/>
+            <wsdl:output message="ns:sendSmsWapResponse" wsaw:Action="urn:sendSmsWapResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="createSender">
+            <wsdl:input message="ns:createSenderRequest" wsaw:Action="urn:createSender"/>
+            <wsdl:output message="ns:createSenderResponse" wsaw:Action="urn:createSenderResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsFlash">
+            <wsdl:input message="ns:sendSmsFlashRequest" wsaw:Action="urn:sendSmsFlash"/>
+            <wsdl:output message="ns:sendSmsFlashResponse" wsaw:Action="urn:sendSmsFlashResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="send">
+            <wsdl:input message="ns:sendRequest" wsaw:Action="urn:send"/>
+            <wsdl:output message="ns:sendResponse" wsaw:Action="urn:sendResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsReport">
+            <wsdl:input message="ns:sendSmsReportRequest" wsaw:Action="urn:sendSmsReport"/>
+            <wsdl:output message="ns:sendSmsReportResponse" wsaw:Action="urn:sendSmsReportResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="smsSoap11Binding" type="ns:smsPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="sendSms">
+            <soap:operation soapAction="urn:sendSms" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsToListPhone">
+            <soap:operation soapAction="urn:sendSmsToListPhone" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStatusPartner">
+            <soap:operation soapAction="urn:getStatusPartner" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendUni">
+            <soap:operation soapAction="urn:sendUni" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getBrandNames">
+            <soap:operation soapAction="urn:getBrandNames" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getBalance">
+            <soap:operation soapAction="urn:getBalance" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendFlash">
+            <soap:operation soapAction="urn:sendFlash" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsWap">
+            <soap:operation soapAction="urn:sendSmsWap" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="createSender">
+            <soap:operation soapAction="urn:createSender" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsFlash">
+            <soap:operation soapAction="urn:sendSmsFlash" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="send">
+            <soap:operation soapAction="urn:send" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsReport">
+            <soap:operation soapAction="urn:sendSmsReport" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="smsSoap12Binding" type="ns:smsPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="sendSms">
+            <soap12:operation soapAction="urn:sendSms" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsToListPhone">
+            <soap12:operation soapAction="urn:sendSmsToListPhone" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStatusPartner">
+            <soap12:operation soapAction="urn:getStatusPartner" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendUni">
+            <soap12:operation soapAction="urn:sendUni" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getBrandNames">
+            <soap12:operation soapAction="urn:getBrandNames" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getBalance">
+            <soap12:operation soapAction="urn:getBalance" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendFlash">
+            <soap12:operation soapAction="urn:sendFlash" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsWap">
+            <soap12:operation soapAction="urn:sendSmsWap" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="createSender">
+            <soap12:operation soapAction="urn:createSender" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsFlash">
+            <soap12:operation soapAction="urn:sendSmsFlash" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="send">
+            <soap12:operation soapAction="urn:send" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsReport">
+            <soap12:operation soapAction="urn:sendSmsReport" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="smsHttpBinding" type="ns:smsPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="sendSms">
+            <http:operation location="sms/sendSms"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="sendSms"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="sendSms"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsToListPhone">
+            <http:operation location="sms/sendSmsToListPhone"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="sendSmsToListPhone"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="sendSmsToListPhone"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStatusPartner">
+            <http:operation location="sms/getStatusPartner"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="getStatusPartner"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="getStatusPartner"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendUni">
+            <http:operation location="sms/sendUni"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="sendUni"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="sendUni"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getBrandNames">
+            <http:operation location="sms/getBrandNames"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="getBrandNames"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="getBrandNames"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getBalance">
+            <http:operation location="sms/getBalance"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="getBalance"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="getBalance"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendFlash">
+            <http:operation location="sms/sendFlash"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="sendFlash"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="sendFlash"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsWap">
+            <http:operation location="sms/sendSmsWap"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="sendSmsWap"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="sendSmsWap"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="createSender">
+            <http:operation location="sms/createSender"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="createSender"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="createSender"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsFlash">
+            <http:operation location="sms/sendSmsFlash"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="sendSmsFlash"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="sendSmsFlash"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="send">
+            <http:operation location="sms/send"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="send"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="send"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sendSmsReport">
+            <http:operation location="sms/sendSmsReport"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="sendSmsReport"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="sendSmsReport"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="sms">
+        <wsdl:port name="smsHttpSoap11Endpoint" binding="ns:smsSoap11Binding">
+            <soap:address location="http://bc.vht.com.vn:8440/vht/services/sms.smsHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="smsHttpSoap12Endpoint" binding="ns:smsSoap12Binding">
+            <soap12:address location="http://bc.vht.com.vn:8440/vht/services/sms.smsHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="smsHttpEndpoint" binding="ns:smsHttpBinding">
+            <http:address location="http://bc.vht.com.vn:8440/vht/services/sms.smsHttpEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

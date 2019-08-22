@@ -1,0 +1,170 @@
+figure .size-full { 
+
+	max-width: 100% !important;
+
+	height: auto;
+
+}
+.page-view .snip .snip4 .content-page .size-full {
+    max-width: 100% !important;
+    height: auto;
+}
+.comments-area ul.comment-list {
+
+	list-style: none;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.comment-details .snip {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-flow: wrap;
+
+    margin: 0;
+
+    height: 100%;
+
+}
+
+.comment-details .snip1540 {
+
+    box-shadow: none !important;
+
+    color: #141414;
+
+    display: inline-block;
+
+    font-family: 'Open Sans', Arial, sans-serif;
+
+    font-size: 14px;
+
+    line-height: 1.4em;
+
+    margin: 10px;
+
+    max-width: 315px;
+
+    min-width: 230px;
+
+    position: relative;
+
+    text-align: left;
+
+    width: 100%;
+
+}
+
+.comment-details .snip1540 .profile-image img {
+
+    border-radius: 5px;
+
+    max-width: 100%;
+
+    height: 80px;
+
+    vertical-align: top;
+
+    float: left;
+
+}
+
+.comment-details .snip1540 figcaption {
+
+    background-color: #ffffff;
+
+    border-radius: 5px;
+
+    color: #cc7c06;
+
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 25px;
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.comment-details .snip1540 h3 {
+
+    font-weight: 600;
+
+    font-size: 1.2em;
+
+    font-family: 'Montserrat', Arial, sans-serif;
+
+}
+
+.comment-details .snip1540 h4 {
+
+    color: #8c8c8c;
+
+    font-weight: 400;
+
+    letter-spacing: 2px;
+
+}
+
+.comment-details .snip1540 p {
+
+    font-size: 0.9em;
+
+    letter-spacing: 1px;
+
+    opacity: 0.9;
+
+}
+
+.comment-details .snip1540 figcaption:after {
+
+    border-color: transparent transparent #ffffff transparent;
+
+    border-style: solid;
+
+    border-width: 0 10px 10px 10px;
+
+    bottom: 100%;
+
+    content: '';
+
+    height: 0;
+
+    left: 32px;
+
+    position: absolute;
+
+    width: 0;
+
+}
+
+.comment-details .snip1540 figcaption {
+
+    background-color: #ffffff;
+
+    border-radius: 5px;
+
+    color: #cc7c06;
+
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 25px;
+
+    position: relative;
+
+    width: 100%;
+
+}

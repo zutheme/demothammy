@@ -1,0 +1,42 @@
+.btn-thikshare{
+cursor: pointer;
+text-decoration: none;
+display: block;
+width: 100%;
+text-align: center;
+background: #04679a;
+margin: 20px 0 0 0;
+color: #5cba47;
+font-size: 16px;
+padding: 10px 0;
+}
+
+
+.thikshare-form-wrapper label{
+width: 170px;
+display: inline-block;
+}
+
+.thikshare-form-wrapper input[type="submit"]{
+margin: 20px 0 0 0;
+cursor: pointer;
+padding: 0 126px;
+cursor: pointer;
+border: 1px solid #e2e2e2;
+}
+
+.thikshare-notify{
+color: green;
+font-weight: bold;
+margin-top: 30px;
+}
+
+#help_zalo{
+	display: none;
+margin-top: 40px;
+border-top: 1px solid #80808066;
+}
+
+#help_zalo img{
+max-width: 600px;
+}

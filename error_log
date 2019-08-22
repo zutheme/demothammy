@@ -1,0 +1,9 @@
+[14-Nov-2017 08:10:57 UTC] PHP Fatal error:  Call to undefined function the_date_post() in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1101
+[14-Nov-2017 08:11:04 UTC] PHP Fatal error:  Call to undefined function the_date_post() in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1101
+[17-Nov-2017 04:13:36 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:13:49 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:13:51 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:14:11 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:14:44 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:14:46 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[20-Nov-2017 05:00:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/single.php on line 22

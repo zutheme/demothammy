@@ -1,0 +1,168 @@
+body {
+
+  margin: 0;
+
+}
+
+.snip{
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-flow: wrap;
+
+  margin: 0;
+
+  height: 100%;
+
+}
+
+.snip1 {
+
+  display: inline-block;
+
+  margin: 10px;
+
+  max-width: 20%;
+
+  min-width: 230px;
+
+  position: relative;
+
+  text-align: left;
+
+  width: 100%;
+
+}
+@media(max-width: 1021px) {
+
+    .snip1 {
+
+       max-width: 315px;
+
+    }
+
+}
+.snip2 {
+
+  display: inline-block;
+
+  margin: 10px;
+
+  max-width: 630px;
+
+  min-width: 300px;
+
+  position: relative; 
+
+  text-align: left;
+
+  width: 100%;
+
+}
+
+.snip3 {
+
+  display: inline-block;
+
+  margin: 10px;
+
+  max-width: 420px;
+
+  min-width: 306px;
+
+  position: relative; 
+
+  text-align: left;
+
+  width: 100%;
+
+}
+
+.snip4{
+
+  display: inline-block;
+
+  margin: 10px;
+
+  max-width: 990px;
+
+  position: relative; 
+
+  width: 100%;
+
+}
+
+@media(max-width: 878px) {
+
+    .snip3 {
+
+        width: auto;
+
+    }
+
+}
+
+.col-12 {
+
+  margin: 10px;
+
+  max-width:1260px;
+
+  position: relative; 
+
+  width: 100%;
+
+}
+
+.center-t{
+
+	text-align: center;
+
+}
+
+a {text-decoration: none;}
+
+
+
+.color a{
+
+	color: #323232;
+
+}
+
+.color a:hover{
+
+	color: #cc9900;
+
+}
+
+.max-img{
+
+  max-width: 100%;
+
+}
+
+.font-r{
+
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.font-m{
+
+  font-family: 'K2D', sans-serif;
+
+}
+
+.font-d{
+
+  font-family: 'Dancing Script', cursive;
+
+}
+
+
+

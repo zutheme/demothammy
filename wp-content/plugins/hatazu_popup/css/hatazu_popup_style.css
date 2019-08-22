@@ -1,0 +1,26 @@
+
+/*begin form*/
+.frm-shorcort-reg .frm-register .bg-reg img {
+    width: 100%;
+    height: auto;
+}
+.frm-shorcort-reg .frm-register {
+    padding: 0px 15px;
+    border:1px solid #ededed;
+    background: #f1f1f1;
+}
+.frm-shorcort-reg .frm-register .input-group {
+    position: relative;
+    padding: 5px 0px;
+    width: 100%;
+}
+.frm-shorcort-reg .frm-register .input-group .form-control {
+    padding: 5px 5px;
+    width: 100%;
+}
+.form-popup table {
+    width: 100% !important;
+}
+.form-table-popup input.control-form{
+    width: 100%;
+}

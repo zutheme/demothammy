@@ -1,0 +1,158 @@
+
+  .logo{
+    position: absolute;
+    left: 2.1%;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-top: 2px solid gold;
+    box-shadow: 0 7px 21px rgba(0,0,0,.1);
+    z-index: 1;
+  }
+  .logo a img{
+    max-width: 100%;
+  }
+  .navi {
+    background: #ffffff;
+    flex: 16;
+    display: flex;
+    flex-direction: column;
+  }
+  .navi a {
+    color: #ccc;
+  }
+  .navi .menu-k{
+    text-align: right;
+    margin:0 0;
+  }
+  .navi .menu-k li{
+    padding: 15px 15px;
+        
+  }
+  .navi .menu-k li:hover{
+    background-color: rgba(255, 193, 7, 0.15);
+  }
+  .navi .menu-k li,
+  .navi .menu-k li a {
+    display: inline-block;
+    
+  }
+  .navi .menu-k li a {
+    position: relative;
+    text-align: left;
+    text-decoration: initial;
+    font-size: 16px;
+    color: #222;
+  }
+
+  .navi .menu-k li a:hover {
+    color: #cc9900;
+  }
+  .navi .menu-k .menu-item-has-children .main-menu-link {
+    position: relative;
+  }
+  .navi .menu-k .menu-item-has-children .main-menu-link:after{
+    content: url(../img/arrow-down.png);
+    font-size: 12px;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    position: relative;
+    top: -2px;
+    left: 0;
+  }
+  .actihome{
+    border-bottom: 2px solid gold;
+  }
+  .dropdown {
+    position: absolute;
+    background: #ffffff;
+    transition: all 0.2s linear;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    z-index: 999;
+    top: 100%;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    box-shadow: 0 1px 5px rgba(0,0,0,.1);
+    padding: 0 0;
+    border-radius: 6px;
+  }
+  .dropdown:focus{
+    display: block;
+  }
+  .dropdown li,
+  .dropdown li a {
+    display: block !important;
+    padding: none;
+  }
+
+  .dropdown li a {
+    padding: 0px 15px !important;
+  }
+
+  .arrow {
+    font-size: 9px;
+  }
+  .dropdownStart i{
+  font-size: 11px;
+    padding-left: 5px;
+    color: goldenrod;
+}
+  .menu-k li:hover > .dropdown {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+.dropdownStart i{
+  font-size: 11px;
+    padding-left: 5px;
+    color: goldenrod;
+}
+@media(max-width: 1400px) {
+    .actihome {
+        display: none!important;
+    }
+    .logo{
+          left: 1%;
+          text-align: center;
+          padding: 15px 0;
+          z-index: 99;
+        }
+    .logo a img{
+      max-width: 80%;
+
+    }
+}
+@media(max-width: 1280px) {
+    .social{
+      display: none;
+    }
+}
+
+@media(max-width: 1022px) {
+  .navi{
+    display: none;
+  }
+  .social{
+      display: inherit;
+    }
+    
+}
+@media(max-width: 500px) {
+    .logo a img{
+      max-width: 90%;
+      
+    }
+    .logo{
+      width: 40%;
+      left: 0;
+      z-index: 99;
+    }
+    .social{
+      display: none;
+    }
+}
+

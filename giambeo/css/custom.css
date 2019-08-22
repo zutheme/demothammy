@@ -1,0 +1,12 @@
+.area-comment {
+  position: relative;
+  width: 100%;
+  z-index: 9999990;
+}
+.area-comment .comment {
+  position: relative;
+  max-width: 570px;
+  padding: 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,0 +1,231 @@
+.hatazu_consultant .modal {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.hatazu_consultant .modal .modal-content {
+    background-image: url(../images/bg-patient.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: left top; 
+    background-color: #52cea8;
+    min-height:360px;  
+}
+
+.hatazu_consultant .modal-header {
+    min-height: 16.43px;
+    border-bottom: 0px solid #e5e5e5;
+    padding: 15px;
+}
+.hatazu_consultant .modal .modal-header .header{
+    padding: 15px 25px 0px;
+}
+.hatazu_consultant .modal .modal-header .close,
+.hatazu_consultant .modal .modal-header h4{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.8em;
+    font-family: 'lato'
+}
+.hatazu_consultant .modal .modal-content .modal-body .bg-before{
+    color: #fff;
+    padding: 0px 5px 170px;
+    min-height: 100%;
+    text-align: center;
+}
+.hatazu_consultant .modal .modal-content .modal-body .bg-before h4{
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.8em;
+    font-family: "Montserrat", sans-serif;
+}
+.hatazu_consultant .modal .modal-content .modal-body p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3em;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.hatazu_consultant .modal .modal-content .bg-below{
+    position: absolute;
+    top:50%;
+    left:0%;
+    width: 100%;
+    padding: 50px 50px; 
+    background-image: url(../images/nen-vien.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: left top; 
+    background-color: #52cea8;
+}
+.hatazu_consultant .modal .modal-content .bg-below .cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #52bde9;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -moz-opacity: 0.6;
+    filter: alpha(opacity=0.6);
+    opacity: 0.6;
+    -webkit-transform: translateZ(10);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    z-index: 0;
+}
+.hatazu_consultant .modal .modal-content .cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #52bde9;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -moz-opacity: 0.6;
+    filter: alpha(opacity=0.6);
+    opacity: 0.6;
+    -webkit-transform: translateZ(10);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    z-index: 0;
+}
+.hatazu_consultant .modal .modal-content .form_event{
+    padding: 5px 65px;
+    text-align: center;
+}
+.hatazu_consultant .modal .modal-content .form_event .captchar{
+        position: relative;
+        padding-left: 10%;
+    }
+.hatazu_consultant .modal .modal-dialog .form_event h5{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.hatazu_consultant .modal .modal-content .form_event .icon-store{
+    text-align: center;
+}
+.hatazu_consultant .modal .modal-content .form_event .icon-store ul{
+    list-style: none;
+    padding: 5px 30px;
+}
+.hatazu_consultant .modal .modal-content .form_event .icon-store ul li:first-child{
+    padding-left:10px;
+    padding-right: 25px;
+}
+.hatazu_consultant .modal .modal-content .form_event .icon-store ul li{
+    width: 50%;
+    padding-left:10px;
+    padding-right: 25px;
+    float: left;
+}
+.hatazu_consultant .modal .modal-content .form_event .icon-store img{
+    width: 100%;
+    height: auto;
+}
+/*.hatazu_consultant .modal .modal-content .form_event .icon-store .icon-size{
+    max-width: 80px;
+    min-height:auto; 
+}*/
+.hatazu_consultant .modal .modal-content .form_event .btn-submit{
+    background: #50D787;
+    color: #fff;
+    padding: 5px 15px;
+    /*box-shadow: 1px 1px #3c9a7d;*/
+}
+.hatazu_consultant .modal .modal-content .form_event  .form-group {
+    border: 1px solid #e1e1e1;
+    box-shadow: 0px 1px #e1e1e1;
+    background: #A2A2A2;
+    border-radius: 3px;
+}
+/*.hatazu_consultant .btn-submit {
+    background: #50D787;
+    color: #fff;
+    border-radius: 4px;
+}*/
+/*.hatazu_consultant .modal .modal-dialog .btn-submit:hover{
+    background:#0070CD;
+    color: #fff;
+    border: 1px solid #fff;
+}*/
+/*.hatazu_consultant .modal .modal-dialog .form_event .area-submit{
+    padding: 3px 15px 15px;
+}*/
+/*.hatazu_consultant .modal .modal-dialog .form_event .fullname input{
+    width: 50%;
+}*/
+.hatazu_consultant .modal .modal-dialog .form_event input{
+    padding: 3px 10px;
+    box-shadow: 1px 1px #3c9a7d;
+}
+.hatazu_consultant .modal .modal-dialog .form_event input::placeholder {
+  color:#333131;
+}
+.hatazu_consultant .modal .modal-dialog .form_event .glyphicon{
+    color:#333131; 
+}
+@media (min-width: 768px){
+    .hatazu_consultant .modal {
+        position: fixed;
+        top: 10%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;
+        display: none;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        outline: 0;
+    }
+}
+@media (max-width: 768px) {
+     .hatazu_consultant .modal .modal-content .form_event{
+        padding: 5px 0px;
+    }
+    .hatazu_consultant .modal {
+        position: fixed;
+        top: 1%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;
+        display: none;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        outline: 0;
+    }
+    .hatazu_consultant .modal .modal-content .form_event .captchar{
+        position: relative;
+        padding-left: 0%;
+    }
+    .hatazu_consultant .modal .modal-content .modal-body .bg-before {
+        /*color: #fff;
+        padding: 0px 5px 260px;
+        min-height: 100%;
+        text-align: center;*/
+        display: none;
+    }
+    .hatazu_consultant .modal .modal-content .form_event .icon-store ul li {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 25px;
+        float: left;
+    }
+}

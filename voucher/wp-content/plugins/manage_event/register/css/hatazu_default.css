@@ -1,0 +1,88 @@
+.hatazu_modal .modal {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.hatazu_modal .modal .modal-content {
+    position: relative;
+    background-color: #0070CD;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    
+}
+.hatazu_modal .modal .modal-content .form_event{
+    padding: 5px 45px;
+}
+.hatazu_modal .modal-header {
+    min-height: 16.43px;
+    border-bottom: 0px solid #e5e5e5;
+    padding: 15px;
+}
+.hatazu_modal .modal .modal-header .header{
+    padding: 15px 25px 0px;
+}
+.hatazu_modal .modal .modal-header .close,
+.hatazu_modal .modal .modal-header h4{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.8em;
+    font-family: 'lato'
+}
+.hatazu_modal .modal .modal-dialog .btn-submit{
+    background: #fff;
+    color: #0070CD;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.hatazu_modal .modal .modal-dialog .btn-submit:hover{
+    background:#0070CD;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.hatazu_modal .modal .modal-dialog .form_event .area-submit{
+    padding: 3px 15px 15px;
+}
+.hatazu_modal .modal .modal-dialog .form_event .fullname input{
+    width: 50%;
+}
+.hatazu_modal .form_event input::placeholder {
+  color:#0070CD;
+}
+.hatazu_modal .form_event .glyphicon{
+    color:#0070CD; 
+}
+@media (min-width: 768px){
+    .hatazu_modal .modal {
+        position: fixed;
+        top: 10%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;
+        display: none;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        outline: 0;
+    }
+}
+@media (max-width: 768px) {
+     .hatazu_modal .modal .modal-content .form_event{
+        padding: 5px 0px;
+    }
+}

@@ -1,0 +1,4 @@
+[06-Feb-2018 15:54:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/phimcach/public_html/thammyvienthienkhue.vn/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/phimcach/public_html/thammyvienthienkhue.vn/wp-content/plugins/hello.php on line 60

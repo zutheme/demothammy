@@ -1,0 +1,264 @@
+/*popup survey*/
+
+.alert-popup {
+
+    display: none; /* Hidden by default */
+
+    position: fixed; /* Stay in place */
+
+    z-index: 10; /* Sit on top */
+
+    right: 25px;
+
+    bottom:32%;
+
+    width: 300px; /* Full width */
+
+    min-height: auto; /* Full height */
+
+    overflow: auto; /* Enable scroll if needed */
+
+    background-color: rgba(255,255,255,0.9); /* Black w/ opacity */
+
+    -webkit-border-radius: 10px; 
+
+    -moz-border-radius: 10px; 
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    -moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    padding: 5px 5px;
+
+    overflow-y: hidden; 
+
+    overflow-x: hidden; 
+
+}
+
+.alert-popup .close {
+
+  position: relative;
+
+  top:0px;
+
+  right:0px;
+
+  color:#333;
+
+  font-size: 14px;
+
+  /*background: rgba(0,0,0,0.9);
+
+  -webkit-border-radius: 10px; 
+
+  -moz-border-radius: 10px; 
+
+  border-radius: 10px;*/
+
+}
+
+/*a little bit of reset*/
+
+.services-list, .services-list p, .services-list h3 {
+
+  list-style: none;
+
+  margin:0; padding:0;
+
+}
+
+.services-list p {
+
+  font-size: 12px;
+
+  color: #333;
+
+  font-weight: 400;
+
+  line-height: normal;
+
+}
+
+.services-list h3 {
+
+  font-size: 14px;
+
+  color: #000;
+
+  font-weight: 600;
+
+  line-height: normal;
+
+}
+
+.services-list > li{
+
+  float:left;
+
+  margin-right: 20px;
+
+  width: 100%;
+
+  padding: 0px 0px 5px 0px;
+
+}
+
+.services-list li p.recent {
+
+  font-style: italic;
+
+}
+
+.services-list > li > .image{
+
+  display:block;
+
+  float:left;
+
+  margin-right:10px;
+
+  
+
+}
+
+
+
+/*
+
+this instructions are to force the dimensions of image and its container <a>
+
+*/
+
+.services-list > li > .image, 
+
+.services-list > li > .image > img{
+
+  width:80px; height:80px;
+
+  -webkit-border-radius: 50%; 
+
+  -moz-border-radius: 50%; 
+
+  border-radius: 50%;
+
+}
+
+@media (max-width: 768px) {
+  .alert-popup {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    right: 15px;
+    bottom: 12%;
+    width: 250px;
+    min-height: auto;
+    overflow: auto;
+    background-color: rgba(255,255,255,0.9);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+    padding: 0px 5px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.alert-popup .services-list > li > .image, 
+.services-list > li > .image > img {
+      width: 60px;
+      height: 60px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+  }
+  .alert-popup {
+
+    display: none; /* Hidden by default */
+
+    position: fixed; /* Stay in place */
+
+    z-index: 10; /* Sit on top */
+
+    left: 5px;
+
+    bottom:10%;
+
+    width: 280px; /* Full width */
+
+    min-height: auto; /* Full height */
+
+    overflow: auto; /* Enable scroll if needed */
+
+    background-color: rgba(255,255,255,0.9); /* Black w/ opacity */
+
+    -webkit-border-radius: 10px; 
+
+    -moz-border-radius: 10px; 
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    -moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    padding: 5px 5px;
+
+    overflow-y: hidden; 
+
+    overflow-x: hidden; 
+
+}
+}
+@media (min-width: 991px) and (max-width: 1366px){
+	.alert-popup {
+
+    display: none; /* Hidden by default */
+
+    position: fixed; /* Stay in place */
+
+    z-index: 10; /* Sit on top */
+
+    right: 15px;
+
+    bottom:25%;
+
+    width: 300px; /* Full width */
+
+    min-height: auto; /* Full height */
+
+    overflow: auto; /* Enable scroll if needed */
+
+    background-color: rgba(255,255,255,0.9); /* Black w/ opacity */
+
+    -webkit-border-radius: 10px; 
+
+    -moz-border-radius: 10px; 
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    -moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.3);
+
+    padding: 5px 5px;
+
+    overflow-y: hidden; 
+
+    overflow-x: hidden; 
+
+}
+}
+
+
+

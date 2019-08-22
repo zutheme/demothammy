@@ -1,0 +1,532 @@
+@media (min-width: 769px){
+  #header .logo{
+    margin-top: 15px;
+  }
+  .single #content .wpcf7-form .left{
+    width: 45%;
+    padding-left: 0;
+  }
+  .single #content .wpcf7-form .right{
+    width: 55%;
+    padding-right: 0;
+  }
+  #dky-tu-van-mien-phi{
+      padding: 23px 37px 5px 50px;
+  }
+}
+@media (min-width: 769px) AND (max-width: 990px){
+  #header .mobile-toggle,#header .searchform-popup{
+    margin-top: 15px;
+  }
+  #header .hotline-and-register{
+    padding-top: 5px;
+    float: right;
+  }
+  #header .hotline-and-register > div{
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 991px){
+   #header .logo{
+    margin-top: 25px;
+  }
+  #header .sticky .logo{
+    margin-top: 15px;
+  }
+}
+@media (min-width: 991px) AND (max-width: 1199px){
+  #main-menu{
+    width: 80%;
+  }
+  #header .hotline-and-register{
+    width: 20%;
+  }
+  #menu-main-menu.mega-menu li.menu-item > a{
+    width: 110px;
+  }
+  #header .header-main .container .header-left{
+    width: 20%
+  }
+  #header .header-main .container .header-right{
+    width: 80%;
+  }
+}
+@media (min-width: 1190px){
+  #main-menu {
+    /* height: 130px; */
+  }
+  #top-chuyen-muc .primary{
+    padding-right: 40px;
+  }
+  #top-chuyen-muc .secondary .item{
+    margin-bottom: 30px;
+  }
+  #top-chuyen-muc .secondary .image-post{
+    height: 100px;
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  .mega-menu > .menu-item > .popup > .inner > .sub-menu > li.menu-item {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+  }
+  .mega-menu .popup li.menu-item a{
+    background: #ededed;
+  }
+  .container {
+      width: 1200px;
+  }
+  .right-sidebar{
+      width: 31%;
+  }
+  .main-content.col-md-9{
+      width: 69%;
+  }
+  .mega-menu > li.menu-item.has-sub .popup{
+    width: 1170px;
+    margin-left: -217px;
+    margin-top: 0;
+    border-top: 2px solid #ffe87a;
+  }
+  .mega-menu > li.menu-item.has-sub .popup .sub-menu{
+    float: left;
+    width: 100%;
+  }
+}
+@media(max-width: 1199px){
+  .chuoi-he-thong-wrapper h2{
+    height: 3.5em;
+  }
+}
+@media(max-width: 990px){
+  .chuoi-he-thong-wrapper h2 {
+    height: 4.5em;
+  }
+  .right-sidebar{
+    display: none;
+  }
+  #header .header-main .header-right .show-header-top{
+    display: none;
+  }
+}
+@media(max-width: 768px){
+  #cay-noan-tri-nam .wpb_text_column.wpb_content_element.skt-text-box{
+    margin-bottom: 20px;
+  }
+  #san-pham-trang-chu-wrapper:before{
+    content:'';
+    display: block;
+    background: url(/wp-content/themes/porto/images/yoona.png);
+    width: 209px;
+    height: 315px;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    margin-left: -100px;
+    /* z-index: 101; */
+    background-size: 100%;
+  }
+  #san-pham-trang-chu-wrapper{
+    background-image: url(/wp-content/themes/porto/images/bg-yoona-mobile.jpg);
+    background-;
+    background-size: 768px 475px;
+    background-position: top;
+    padding-top: 185px;
+    background-repeat: no-repeat;
+  }
+  #footer .wpcf7{
+    padding: 15px;
+  }
+  #footer .wpcf7 input{
+    padding-left: 10px;
+  }
+  .menu-wrap .menu-item br{
+    display: none;
+  }
+  .menu-wrap .menu-item{
+    text-transform: uppercase;
+  }
+  #tin-tuc-trang-chu-mobile .nav li a{
+    padding: 5px 0;
+    color: #606060;
+    border: none;
+    background: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+  }
+  #tin-tuc-trang-chu-mobile .nav li.active a{
+    color: #ee6c5d;
+    border-color: #ee6c5d;
+  }
+  #tin-tuc-trang-chu-mobile .nav > li:first-child,
+  #tin-tuc-trang-chu-mobile .nav > li:nth-child(2){
+    width: 30%;
+  }
+  #tin-tuc-trang-chu-mobile .nav > li:last-child{
+    width: 40%;
+  }
+  #tin-tuc-trang-chu-mobile .nav > li{
+    text-align: center;
+  }
+  #tin-tuc-trang-chu-mobile .tab-content{
+    background: none;
+    box-shadow: none;
+  }
+  #tin-tuc-trang-chu-mobile{
+    padding-top: 20px;
+    background-color: #f6f3c6;
+  }
+  #tin-tuc-trang-chu-mobile .flexslider .slides>li{
+   display: block;
+ }
+  #chuoi-he-thong-wrapper-mobile{
+    padding-top: 30px;
+  }
+  #doi-ngu-bac-si{
+    background: #f6f3c6;
+    padding-top: 20px;
+  }
+  .bac-si-main-info p{
+    margin-bottom: 0px;
+    padding: 5px 0;
+    text-align: left!important;
+    border-bottom: 1px dashed gray;
+  }
+  .bac-si-main-info .wpb_wrapper > p:first-child,
+  .bac-si-main-info .wpb_wrapper > p:last-child{
+    border: none;
+  }
+  .chuoi-he-thong-wrapper h2..vc_custom_heading {
+    height: auto;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  #doi-ngu-bac-si #list-bac-si.vc_inner > div{
+    width: 33.33%;
+    float: left;
+  }
+  .chia-se-khach-hang .skt-khach-hang{
+    float: left;
+    height: auto;
+  }
+  .chia-se-khach-hang .skt-khach-hang > div:first-child{
+    /* width:30% */
+    float: none;
+    margin: 0 auto;
+  }
+  .chia-se-khach-hang .skt-khach-hang .skt-ten{
+    /* width: 70%; */
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+    margin-top: 15px;
+  }
+  .chia-se-khach-hang .skt-khach-hang .skt-ten h5{
+    
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    height: 42px;
+  }
+  #hinh-anh-truoc-sau .secondary-video{ 
+    float: left;
+  }
+  #hinh-anh-truoc-sau .video-wrapper{
+    width:100%;
+  }
+  #hinh-anh-truoc-sau{
+    padding: 0;
+  }
+  #hinh-anh-truoc-sau .primary-video{
+    width:100%;
+    float: left;
+    height: auto;
+  }
+  #san-pham-trang-chu-wrapper, #hinh-anh-truoc-sau{
+    width: 104%;
+    margin-left: -10px;
+    height: 800px;
+    margin-right: -10px;
+    /* display: block; */
+    position: relative;
+  }
+  #chuoi-he-thong-wrapper h2{
+    height: auto;
+    margin-bottom: 5px;
+    text-align: center!important;
+  }
+  #header .logo{
+    max-width: 200px!important;
+  }
+  #menu-main-menu{
+    display:none;
+  }
+  .hotline-and-register{
+    display:none;
+  }
+  #header{
+    background: #f6f3c6;
+  }
+  .mobile-toggle .fa{
+    font-size:24px;
+  }
+  .mobile-toggle{
+    margin-top: 18px;
+    margin-left: 8px;
+  }
+  .sticky .mobile-toggle{
+    margin-top: 3px;
+  }
+  #header .header-main .container{
+    padding-bottom: 0;
+    /* padding-top: 10px; */
+  }
+  #header .header-main.sticky .container{
+    /* padding: 5px 0; */
+    padding-top: 10px;
+    padding-bottom: 0px;
+    min-height: 60px;
+  }
+  #header.sticky-header .logo{
+    display:block;
+    /* max-width: 120px!important; */
+    margin: 0;
+  }
+  #chuoi-he-thong-wrapper{
+    
+    background: #f6f3c6;
+    
+    text-align: center;
+  }
+  #tin-tuc-trang-chu > .vc_column_container > div{
+    float:left;
+    margin-bottom: 15px;
+  }
+  #trang-chu-tham-my-wrapper .ult_pricing_heading{
+    width:100%;
+    left:0;
+    margin-left:0;
+    border-radius:0;
+  }
+  #trang-chu-tham-my-wrapper .ult_design_2 .ult_pricing_table .ult_price_features ul li{
+    font-weight:normal;
+    text-align: center;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #trang-chu-tham-my-wrapper .ult_pricing_table .ult_price_features{
+    width: 100%;
+    padding-left:0;
+    padding-right:0;
+    padding-top: 25px;
+  }
+  #trang-chu-tham-my-wrapper .ult_pricing_table{
+    padding: 0;
+  }
+  .right-sidebar{
+    display: none;
+  }
+  .single #content .wpcf7-form .right{
+    /* padding-left:0; */
+  }
+  #header .header-main .container .header-right{
+    margin-top: 18px;
+    text-align: right;
+  }
+  #header .sticky.header-main .container .header-right{
+    margin-top:0;
+    text-align: right;
+  }
+  #dky-tu-van-mien-phi{
+      padding: 10px;
+  }
+  .single #content .wpcf7-form h4{
+    padding-left: 15px;
+  }
+  .single #content .wpcf7-form input{
+    width: 100%;
+  }
+  .right-sidebar{
+    display: none;
+  }
+  .chuoi-he-thong-wrapper > .vc_column_container > .wpb_wrapper > *{
+   border:none;
+  }
+  .chuoi-he-thong-wrapper h2{
+    height: auto;
+    margin-bottom: 0;
+  }
+  #chuoi-he-thong-wrapper-mobile .wpb_content_element > .wpb_wrapper > *{
+    margin-bottom: 15px;
+    padding: 0 5px;
+  }
+  #chuoi-he-thong-wrapper-mobile .wpb_content_element > .wpb_wrapper > h2{
+    text-align:center;
+  }
+  #chuoi-he-thong-wrapper-mobile .wpb_content_element > .wpb_wrapper .vc_btn3-container{
+    margin-top: 15px;
+  }
+  #chuoi-he-thong-wrapper-mobile .slick-slider .slick-prev, 
+  #chuoi-he-thong-wrapper-mobile .slick-slider .slick-next{
+    display: block!important;
+  }
+  #chuoi-he-thong-wrapper-mobile .slick-slider .slick-prev i,
+  #chuoi-he-thong-wrapper-mobile .slick-slider .slick-next i{
+    /* font-size: 32px; */
+  }
+  #chuoi-he-thong-wrapper-mobile > .vc_column_container > .wpb_wrapper > *{
+    padding-right:0
+  }
+  #header.sticky-header .header-main, .fixed-header #header.sticky-header .header-main{
+    background: #f6f3c6;
+  }
+  #san-pham-trang-chu-wrapper .vc_column_container > .wpb_wrapper{
+    width: 100%;
+  }
+  .trang-chu-tham-my-wrapper-mobile .vc_tta-panel-heading .vc_tta-controls-icon{
+    display: none;
+  }
+  .vc_tta.vc_general.trang-chu-tham-my-wrapper-mobile .vc_tta-panel-heading a{
+    text-align: center;
+    background-color: #fcd82b;
+    color: #323232;
+    font-size: 16px;
+  }
+  .vc_tta.vc_general.trang-chu-tham-my-wrapper-mobile .vc_tta-panel-body{
+    padding-left:0;
+    padding-right:0;
+  }
+  .vc_tta.vc_general.trang-chu-tham-my-wrapper-mobile .vc_tta-panel-body ul{
+    list-style:none;
+    text-align: center;
+    width: 100%;
+    padding:0
+  }
+  .vc_tta.vc_general.trang-chu-tham-my-wrapper-mobile .vc_tta-panel-body ul li{
+    padding: 15px 0;
+    border-bottom: 1px dashed #afafaf;
+    text-transform: uppercase;
+  }
+  .vc_tta.vc_general.trang-chu-tham-my-wrapper-mobile .vc_tta-panel-body ul > li:last-child{
+    border:none;
+  }
+  .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title>a{
+    color: black;
+  }
+  #video-truoc-sau-mobile .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title>a{
+    color: #ee6c5d;
+    padding: 14px 10px;
+  }
+  #video-truoc-sau-mobile .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title>a{
+    border-bottom: 1px solid #ee6c5d;
+  }
+  
+  #video-truoc-sau-mobile .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading{
+    /* float: left; */
+    /* width: 50%; */
+    position: absolute;
+    top: 15px;
+    background: none;
+    border: none;
+    margin: 0;
+    z-index: 101;
+    width: auto;
+    border-radius: 0;
+  }
+  #video-truoc-sau-mobile .vc_tta-panels > .vc_tta-panel:first-child .vc_tta-panel-heading{
+    text-align: right;
+    padding-right: 30px;
+    right: 50%;
+  }
+  #video-truoc-sau-mobile .vc_tta-panels > .vc_tta-panel:last-child .vc_tta-panel-heading{
+    left: 50%;
+  }
+  #video-truoc-sau-mobile .vc_tta-panels > .vc_tta-panel:last-child{
+    text-align: center;
+  }
+  #video-truoc-sau-mobile .vc_tta-panels > .vc_tta-panel:last-child .twentytwenty{
+    margin: 0 auto;
+  }
+  #video-truoc-sau-mobile .vc_tta-panels-container .vc_tta-panels{
+    padding-top: 60px;
+  }
+  #video-truoc-sau-mobile .vc_tta-panel-body{
+    background:none;
+    border: none;
+  }
+  .chia-se-khach-hang .wpb_content_element{
+    width: 50%;
+    padding: 0 5px;
+  }
+  .chia-se-khach-hang .wpb_content_element .desc{
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .chia-se-khach-hang .caption .icon{
+    margin-top: -5px;
+  }
+  #footer .fanpage{
+    text-align:center;
+    margin-bottom: 15px;
+  }
+  #footer .fanpage h4{
+    text-align: left;
+  }
+  #footer{
+    background:#fcd82b;
+  }
+  #footer .fanpage .fb-page,#footer .fanpage .fb-page *{
+    max-width: 100%;
+  }
+  #footer .social li{
+    display: block;
+    width: 25%;
+    margin: 0;
+    padding: 0 5px;
+  }
+  #footer .first{
+    margin-bottom: 30px;
+  }
+  #chuoi-he-thong-wrapper-mobile{
+    background-color:#f6f3c6
+  }
+}
+@media(max-width: 480px){
+  #san-pham-trang-chu-wrapper{
+    background-size: 500px 470px;
+  }
+}
+@media(max-width: 450px){
+  #san-pham-trang-chu-wrapper{
+    background-size: 500px 500px;
+  }
+}
+@media(max-width: 420px){
+  #san-pham-trang-chu-wrapper{
+    background-size: 500px 550px;
+  }
+}
+@media(max-width: 350px){
+  #san-pham-trang-chu-wrapper{
+    background-size: 500px 550px;
+  }
+}
+@media(max-width: 480px){
+  #san-pham-trang-chu-wrapper, #hinh-anh-truoc-sau{
+    width: 107%;
+  }
+  #header .mobile-toggle{
+    margin-top: 2px;
+  }
+  #header .header-main .container .header-right{
+    margin-top: 0px;
+  }
+  #header .header-main .container{
+    padding-top:10px;
+  }
+  #header .header-main .container .header-left{
+    padding-bottom:5px;
+  }
+}

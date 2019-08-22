@@ -1,0 +1,23 @@
+.twitter-share, .facebook-share {
+  background: #fff;
+  color: rgb(87, 207, 244);
+  cursor: pointer;
+  display: inline-block;
+  padding: 1em 2em;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  
+  &:hover {
+    position: relative;
+    top: -1px;
+  }
+}
+.dzalo {
+  padding: 10px 5px;
+
+}
+.dzalo .zalo-share-button {
+  position: relative;
+  margin: 3px 3px;
+  top: 8px !important;
+}

@@ -1,0 +1,16 @@
+0000.038 () Opened log file at time: Sat, 05 May 2018 14:32:36 +0000 on https://localhost/thienkhue
+0000.038 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.5 WP: 4.9.5 PHP: 7.1.15 (apache2handler, Windows NT HATAZU-PC 6.1 build 7601 (Windows 7 Ultimate Edition Service Pack 1) i586) MySQL: 5.5.5 WPLANG: vi Server: Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.15 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.2M | 2M) multisite: N openssl: OpenSSL 1.0.2n  7 Dec 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.038 () Free space on disk containing Updraft's temporary directory: 74815.5 MB
+0000.043 () Restore job started. Entities to restore: themes. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.074 () Entity: themes
+0000.075 () restore_backup(backup_file=backup_2018-05-05-2040_Thm_M_Vin_ec53f4cb0b6d-themes.zip, type=themes, info=a:2:{s:4:"path";s:43:"C:\xampp\htdocs\thienkhue/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=1)
+0000.075 () Unpacking backup... (backup_2018-05-05-2040_Thm_M_Vin_ec53f4cb0b6d-themes.zip, 18.5 Mb)
+0002.153 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.155 () Moving old data: can potentially use wp_filesystem method / -old
+0002.155 () Moving old data out of the way...
+0004.043 () Top-level entities being moved: index.php, porto, porto-child, porto-child.zip, porto.zip
+0004.085 () Moving unpacked backup into place...
+0004.603 () Top-level entities being moved: index.php, porto, porto-child
+0005.212 () Cleaning up rubbish...
+0005.322 () Restore successful!
+0005.322 () Restore successful

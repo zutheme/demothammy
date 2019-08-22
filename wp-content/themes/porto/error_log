@@ -1,0 +1,4 @@
+[17-Nov-2017 11:26:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_header() in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/index.php on line 1
+[17-Nov-2017 11:26:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_header() in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/index.php on line 1
+[04-Dec-2017 15:55:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_header() in /home/ancamedi/thammyvienthienkhue.vn/wp-content/themes/porto/index.php on line 1
+[04-Dec-2017 15:55:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_header() in /home/ancamedi/thammyvienthienkhue.vn/wp-content/themes/porto/index.php on line 1
