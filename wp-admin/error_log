@@ -1,0 +1,19 @@
+[13-Nov-2017 03:32:43 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Unknown column 'wp_' in 'field list' với truy vấn SELECT wp_
+[13-Nov-2017 04:35:06 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:35:06 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:35:06 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:35:06 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:35:15 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:35:16 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:35:18 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:35:20 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:35:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[13-Nov-2017 04:36:06 UTC] PHP Warning:  sprintf(): Too few arguments in /home/ancamedi/thammy.anca-media.com/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[17-Nov-2017 04:12:48 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:12:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:13:17 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:13:52 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:13:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:14:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[17-Nov-2017 04:14:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ancamedi/thammy.anca-media.com/wp-content/themes/porto/functions.php on line 1193
+[21-Nov-2017 07:23:09 UTC] PHP Warning:  Đã sẩy ra một lỗi bất ngờ. Có vấn đề với WordPress.org hoặc cấu hình máy chủ này. Nếu bạn tiếp tục gặp lỗi, hãy vào <a href="http://wordpress.org/support/">diễn đàn hỗ trợ</a>. (WordPress không thể thiết lập kết nối an toàn tới WordPress.org. Vui lòng liên hệ quản trị máy chủ của bạn.) in /home/ancamedi/thammy.anca-media.com/wp-includes/update.php on line 502
