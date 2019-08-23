@@ -28,7 +28,7 @@
 
   background-color: #cc9900;
 
-  flex: 2;
+  flex: 1;
 
 }
 
@@ -82,7 +82,7 @@
 
   flex: 2;
 
-  background: #70665c;
+  background: #bf8430;
 
   display: flex;
 
@@ -108,7 +108,7 @@
 
   color: white;
 
-  margin-left: 40px;
+  margin-left: 10px;
 
   margin-top: 100px;
 
@@ -126,9 +126,7 @@
 
 .header h1 {
 
-  font-size: 4vw;
-
-  margin-top: -5px;
+  font-size: 140%;
 
 }
 
@@ -136,9 +134,7 @@
 
 .header p {
 
-  margin-top: -2vw;
-
-  font-size: 97%;
+  font-size: 105%;
 
 }
 
@@ -163,16 +159,16 @@
 .first-line {
 
   flex: 1;
-
   display: flex;
-
   flex-direction: row;
 
-  width: 50%;
-
 }
-
-
+.huyhieu{
+  flex: 1;
+}
+.chung-chi{
+  flex: 1;
+}
 
 #f1 {
 
@@ -272,8 +268,24 @@
 
 }
 
-
-
+.htcc{
+  
+  position: relative;
+}
+.htcc p{
+  padding-left: 30px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.htcc .sv{
+  position: absolute;
+  top: 12px;
+  font-size: 23px;
+}
+.htcc .ssb{
+  position: absolute;
+  top: 77px;
+    font-size: 23px;
+}
 .inside {
 
   width: 100%;
@@ -458,7 +470,7 @@
 
   position: absolute;
 
-  bottom: 30px;
+  top: 80px;
 
   right: 50px;
 
@@ -621,16 +633,15 @@
 
         position: inherit;
 
-        background-color: #70665c;
+        background-color: #bf8430;
 
         margin: 0 0;
 
-        padding-top: 55px;
+        padding-top: 90px;
 
         padding-bottom: 10px;
 
     }
-
     .slidep{
 
         position: relative;
@@ -639,7 +650,7 @@
 
     .slide-nav{
 
-        bottom: 15px;
+        top: 15px;
 
         right: 20px;
 
@@ -650,5 +661,8 @@
       display: none;
 
     }
-
+    .button-header{
+      bottom: 10px;
+      left: 10px;
+    }
 }

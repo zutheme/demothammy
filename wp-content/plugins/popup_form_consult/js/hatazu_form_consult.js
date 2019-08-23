@@ -101,10 +101,10 @@ var _modal_consultant_form = document.getElementsByClassName('modal-consultant-f
 
 var _e_modal_consultant = _modal_consultant_form.getElementsByClassName('modal-consult')[0];
 var _e_consultant_form = _modal_consultant_form.getElementsByClassName('frm-register')[0];
-var _e_btn_consultant = document.getElementsByClassName('btn-consultant');
-for (var i = _e_btn_consultant.length - 1; i >= 0; i--) {
-    _e_btn_consultant[i].addEventListener("click", show_consultant_popup);
-}
+// var _e_btn_consultant = document.getElementsByClassName('btn-consultant');
+// for (var i = _e_btn_consultant.length - 1; i >= 0; i--) {
+//     _e_btn_consultant[i].addEventListener("click", show_consultant_popup);
+// }
 // var _e_call_contact = document.getElementsByClassName('call-mobile')[0].getElementsByClassName('btn-consultant')[0];
 // _e_call_contact.addEventListener("click", show_consultant_popup);
 //console.log(cat_parent);

@@ -63,15 +63,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="topnav">
       
       <div class="topnav-right">
-        <div class="logo">
-          <a href="<?php echo get_site_url(); ?>"><img src="<?php bloginfo('template_directory');?>/img/logo-thienkhue.png" alt=""></a>
-        </div>
+        
         <!-- End Logo -->
         <div class="menu-mobile">
         <ul style="display: none">
           <li class="logo-menu-m">
-                <!-- <a href="<?php //echo get_site_url(); ?>"><img src="<?php bloginfo('template_directory');?>/img/logo-thienkhue.png" alt=""></a> -->
-                <a class="btn-consultant" href="javascript:void(0);"><img src="<?php bloginfo('template_directory');?>/img/logo-thienkhue.png" alt=""></a>
+                <!-- <a href="<?php //echo get_site_url(); ?>"><img src="<?php //bloginfo('template_directory');?>/img/logo-thienkhue.png" alt=""></a> -->
+                <a href="<?php echo get_site_url(); ?>"><img src="<?php bloginfo('template_directory');?>/img/logo-thienkhue.png" alt=""></a>
            </li>
         </ul>
         <div id="menu-container">
@@ -116,7 +114,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span class="social">
         <a href="#twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         <a href="#fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a class="btn-consultant" href="#insta"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#insta"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <!-- <a class="btn-consultant" href="#insta"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
         </span>
       </div>
     </div>

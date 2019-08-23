@@ -30,7 +30,7 @@ add_action( 'wp_footer', 'form_floor4');
 function hatazu_form_consult_script() {
     wp_enqueue_style('form-consult.css', plugin_dir_url(__FILE__) . 'css/form_consult.css',array(), '3.3.2', false);
     wp_enqueue_script('hatazu_capture_image.js', plugin_dir_url(__FILE__) .'js/capture_image.js', array(), '0.4.4', true ); 
-    wp_enqueue_script('hatazu_form_consult.js', plugin_dir_url(__FILE__) .'js/hatazu_form_consult.js', array(), '2.5.0', true );
+    wp_enqueue_script('hatazu_form_consult.js', plugin_dir_url(__FILE__) .'js/hatazu_form_consult.js', array(), '2.5.1', true );
 } 
 add_action("wp_enqueue_scripts", "hatazu_form_consult_script");
 ?>

@@ -62,7 +62,7 @@
 <!-- <div class="zalo-chat-widget" data-oaid="4513996301461367939" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420" style="position: fixed; top: 0px; right: 0px; width: 70px; height: 70px; cursor: move; display: none !important; bottom:25px !important; visibility:hidden !important"></div>
 <script src="https://sp.zalo.me/plugins/sdk.js"></script> -->
 <!-- end zalo -->
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script|K2D|Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|K2D|Darker+Grotesque|Lemonada|Roboto+Condensed&display=swap" rel="stylesheet">
 <!-- jQuery library -->
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <!-- Latest compiled JavaScript -->
